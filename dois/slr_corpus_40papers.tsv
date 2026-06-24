@@ -1,0 +1,41 @@
+cite_key	year	title	journal	quartile	databases	rqs	doi
+brunton_smith2024_reliability_crime	2024	Estimating the Reliability of Crime Data in Geographic Areas	British J. Criminology	Q1	Scopus	2	10.1093/bjc/azae018
+timukaite2024_trust_police	2024	Trust in the police and crime reporting	Int'l Review of Victimology	Q1	Scopus	2	
+shan2025_ada_gcnlstm	2025	Ada-GCNLSTM: An adaptive urban crime spatiotemporal prediction model	J. Safety Science and Resilience	Q1	ScienceDirect	1	10.1016/j.jnlssr.2024.11.003
+wang2025_mragnn	2025	MRAGNN: Refining urban spatio-temporal prediction of crime occurrence	Expert Systems with Applications	Q1	ScienceDirect	1,3	10.1016/j.eswa.2024.125940
+zhou2024_hdmgnn	2024	HDM-GNN: A Heterogeneous Dynamic Multi-view GNN for Crime Prediction	ACM Trans. Sensor Networks	Q1	ACM DL, Scopus	1,3	10.1145/3665141
+guo2026_multimodal_gcnlstm	2026	Multimodal spatio-temporal fusion: A generalizable GCN-LSTM framework	Information Fusion	Q1	ScienceDirect	1,3	10.1016/j.inﬀus.2026.104164
+wu2023_fairness_crime	2023	Auditing the fairness of place-based crime prediction models with DL	Computers, Env. & Urban Systems	Q1	ScienceDirect	1	10.1016/j.compenvurbsys.2023.101967
+kim2025_crime_mapping_xai	2025	Crime mapping in urban environments using explainable AI	Sustainable Cities and Society	Q1	ScienceDirect	1,3	10.1016/j.scs.2025.106507
+jing2024_deep_multiscale_hotspot	2024	A deep multi-scale neural networks for crime hotspot mapping prediction	Computers, Env. & Urban Systems	Q1	Scopus	1	10.1016/j.compenvurbsys.2024.102089
+gu2024_graph_representation_street	2024	Graph Representation Learning for Street-Level Crime Prediction	ISPRS Int'l J. Geo-Information	Q2	Scopus	1,3	10.3390/ijgi13070229
+shahmoradi2025_hybrid_stresnet	2025	Hybrid ST-ResNet and LSTM approach for precise crime hotspot prediction	Scientific Reports	Q1	Scopus	1,3	10.1038/s41598-025-24559-7
+albors2025_dl_crime_mobility	2025	Deep Learning for Crime Forecasting: The Role of Mobility	J. Quantitative Criminology	Q1	Scopus	1,3	10.1007/s10940-025-09629-3
+fu2025_excrime_gib	2025	Augmented GIB with type-aware periodicity heterogeneity for crime prediction	Information Processing & Management	Q1	Scopus	1	
+liang2025_spatiotemporal_patrol	2025	Spatiotemporal crime prediction and fairness-constrained patrol design	Int'l J. Applied Earth Observation	Q1	Scopus	1	10.1016/j.jag.2025.104973
+hakyemez2026_ssrs_crime	2026	Enhancing DL-based Crime Hotspot Predictions with Environmental Risk Scores	Applied Spatial Analysis and Policy	Q2	Scopus	1,3	10.1007/s12061-025-09789-6
+fan2025_informer_stgcn	2025	Crime Spatiotemporal Prediction Integrating Informer and ST-GCN	Big Data and Cognitive Computing	Q1	Scopus	1,3	10.3390/bdcc9070179
+fe2024_dark_figure_crime	2024	Partial Identification of the Dark Figure of Crime with Survey Data Under Misreporting Errors	J. Quantitative Criminology	Q1	Scopus	2	
+bhumika2026_fedcrime	2026	FedCrime: Zero-inflation adaptive federated learning for crime prediction	Neurocomputing	Q1	Scopus	1	
+hakyemez2023_park_events	2023	Incorporating park events into crime hotspot prediction on street networks	Applied Soft Computing	Q1	Scopus	1,3	
+deng2023_crime_risk_spatial	2023	Crime risk prediction incorporating geographical spatiotemporal dependency into ML models	Information Sciences	Q1	Scopus	1	
+guo2026_street_view_london	2026	How well do street view images predict crime rates in London?	Computers, Env. & Urban Systems	Q1	Scopus	3	
+jin2025_event_centric_crime_hotspot	2025	An Event-Centric Framework for Predicting Crime Hotspots With Flexible Time Intervals	IEEE Trans. on Knowledge and Data Engineering	Q1	CrossRef	1,3	
+boldt2025_graphtrace_cctv	2025	GraphTrace: A Graph-Guided Hotspot Detection Method for CCTV Placement	Journal of Quantitative Criminology	Q1	CrossRef	1	
+devi2025_cnn_crime_rotation	2025	A rotation invariant CNN based crime prediction utilizing spatial crime distribution analysis	Expert Systems with Applications	Q1	CrossRef	1	
+mithoo2023_bilstm_crime	2023	Social network analysis for crime rate detection using Spizella swarm optimization based BiLSTM	Knowledge-Based Systems	Q1	CrossRef	1,3	
+palmaborda2026_marl_patrol	2026	Cooperative patrol routing: Optimizing urban crime surveillance through multi-agent reinforcement learning	Engineering Applications of AI	Q1	CrossRef	1	
+vairetti2026_dl_crime_apps	2026	Deep learning for crime analytics: A prioritization system for user reports from safety apps	Expert Systems with Applications	Q1	CrossRef	1,3	
+yue2025_spatial_ml_crime	2025	Interpretable spatial ML for understanding spatial heterogeneity in factors affecting crime	Applied Geography	Q1	CrossRef	1,3	
+moradi2026_abm_crime	2026	Theory-guided agent-based modeling for crime prediction and decision support	Expert Systems with Applications	Q1	CrossRef	1	
+tam2023_multimodal_tweets_crime	2023	Multimodal Deep Learning Crime Prediction Using Tweets	IEEE Access	Q2	CrossRef	1,3	
+access2024_rl_crime_social	2024	A Reinforcement Learning Approach Combined With Scope Loss Function for Crime Prediction on Social Networks	IEEE Access	Q2	CrossRef	1,3	
+access2026_digital_twin_crime	2026	AI and ML-Enabled Cognitive Digital Twin for Crime Hotspot Detection and Analysis	IEEE Access	Q2	CrossRef	1	
+jbd2024_multidensity_crime	2024	Multi-density crime predictor: an approach to forecast criminal activities in multi-density urban areas	Journal of Big Data	Q1	CrossRef	1	
+nca2025_crime_type_forecast	2025	Exploratory data analysis, time series analysis, crime type prediction, and trend forecasting	Neural Computing and Applications	Q1	CrossRef	1	
+cd2025_dfc_victimization	2025	Using Victimization Reporting Rates to Estimate the Dark Figure of Crime	Crime and Delinquency	Q2	CrossRef	2	
+jin2023_astifnet_hotspot	2023	Urban hotspot forecasting via automated spatio-temporal information fusion	Applied Soft Computing	Q1	Scopus	1	
+moreira2026_crime_reporting_brazil	2026	Unequal crime reporting: trust in the police and racial disparities in reporting theft and robbery in Brazil	Policing: An International Journal	Q2	Scopus	2	
+tcss2025_start_transformer	2025	START: A Spatiotemporal Autoregressive Transformer for Enhancing Crime Prediction Accuracy	IEEE Trans. Computational Social Systems	Q1	CrossRef	1	
+tcss2023_domain_adaptation	2023	Unsupervised Domain Adaptation for Crime Risk Prediction Across Cities	IEEE Trans. Computational Social Systems	Q1	CrossRef	1	
+lee2024_built_env_crime	2024	Analysing non-linearities and threshold effects between street-level built environments and local crime patterns	Urban Studies	Q1	Scopus	3	

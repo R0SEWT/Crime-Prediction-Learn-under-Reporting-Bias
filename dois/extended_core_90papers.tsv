@@ -1,0 +1,91 @@
+s2_paper_id	doi	title	year	venue	is_slr_corpus
+1b54b0a6eac6ffc5705d812efc8f2e08c00b33f1	10.1109/tkde.2025.3618389	An Event-Centric Framework for Predicting Crime Hotspots With Flexible Time Intervals	2024	IEEE Transactions on Knowledge and Data Engineering	yes
+210d428eea316313b51f3ddc53bc8fe13188f2a0	10.1007/s10940-025-09629-3	Deep Learning for Crime Forecasting: The Role of Mobility at Fine-grained Spatiotemporal Scales	2025	Journal of quantitative criminology	yes
+254dc77e7c8cdb1aa29737e02741e8f68352f84b	10.1007/s12061-025-09789-6	Enhancing Deep Learning-based Crime Hotspot Predictions With Theory-based Environmental Risk Scores	2026	Applied spatial analysis and policy	yes
+342ec46dfefbf443f9baa03a45b512ab5cfb86fc	10.1186/s40537-024-00935-4	Multi-density crime predictor: an approach to forecast criminal activities in multi-density crime hotspots	2024	Journal of Big Data	yes
+45210d8ac0506108078c27e0c3b3fb1f749ca68d	10.1016/j.jag.2025.104973	Spatiotemporal crime prediction and fairness-constrained spatial optimization with deep reinforcement learning for patrol region design	2025	International Journal of Applied Earth Observation and Geoinformation	yes
+59b473d4af761ff1a354a4287b7d6ee5dc056a64	10.1038/s41598-025-24559-7	Hybrid ST-ResNet and LSTM approach for precise crime hotspot prediction	2025	Scientific Reports	yes
+8292e15a792dcdbcef96d77d156890e426159eab	10.1016/j.jnlssr.2024.11.003	Ada-GCNLSTM: An adaptive urban crime spatiotemporal prediction model	2025	Journal of Safety Science and Resilience	yes
+ab0adc81a4bed7c2d6a02f8a00aa4b75e2d37409	10.1016/j.engappai.2025.113706	Cooperative patrol routing: Optimizing urban crime surveillance through multi-agent reinforcement learning	2026	Engineering applications of artificial intelligence	yes
+b8250bc776eebee693325e3c4c73fdb3c0b9228e	10.3390/bdcc9070179	Research on a Crime Spatiotemporal Prediction Method Integrating Informer and ST-GCN: A Case Study of Four Crime Types in Chicago	2025	Big Data and Cognitive Computing	yes
+c50ee43e23662b83fcfe2d6acacb579eabcf7610	10.1016/j.compenvurbsys.2024.102089	A deep multi-scale neural networks for crime hotspot mapping prediction	2024	Computers, Environment and Urban Systems	yes
+c8693acc2260f0fa013dff87336fc5e05d4cc953	10.1007/s10940-025-09623-9	GraphTrace: A Graph-Guided Hotspot Detection Method for CCTV Placement	2025	Journal of quantitative criminology	yes
+d858f387d81a4e708c5c76e0975406ebafb7021b	10.1109/access.2026.3658944	AI and Machine Learning-Enabled Cognitive Digital Twin for Crime Hotspot Detection and Analysis	2026	IEEE Access	yes
+fd68542c02a800ea1151062ac535d4b88b450cec	10.1016/j.asoc.2023.110886	Incorporating park events into crime hotspot prediction on street networks: A spatiotemporal graph learning approach	2023	Applied Soft Computing	yes
+847cdbaa9e4e43f1a473da74ebebe7da21d2d66c	10.1007/s00521-025-11094-9	Exploratory data analysis, time series analysis, crime type prediction, and trend forecasting in crime data using machine learning, deep learning, and statistical methods	2025	Neural computing & applications (Print)	yes
+45c03bfc93d359c551c94571d9147a6ddedbcc05	10.1007/s10940-023-09580-1	A Bayesian Aoristic Logistic Regression to Model Spatio-Temporal Crime Risk Under the Presence of Interval-Censored Event Times	2023	Journal of quantitative criminology	yes
+21cfc88dbf02e10f75a79265ecb82c72cd019401	10.1007/s10940-024-09593-4	Partial Identification of the Dark Figure of Crime with Survey Data Under Misreporting Errors	2024	Journal of quantitative criminology	yes
+58f04ad08279435180e6764e27081d900e0ffcee	10.1007/s10940-025-09650-6	Estimating Crime Counts and Characteristics from NIBRS Data	2026	Journal of quantitative criminology	yes
+df7ae6bad22293009166d3116818443102700eca	10.1016/j.apgeog.2024.103503	Interpretable spatial machine learning for understanding spatial heterogeneity in factors affecting street theft crime	2025	Applied Geography	yes
+463d7f34e6f39f8b45597eba10f8b46b11bfc74a	10.1016/j.asoc.2023.110087	Urban hotspot forecasting via automated spatio-temporal information fusion	2023	Applied Soft Computing	yes
+70f028cf19db358ff9bedfcea6eaf800f0034f06	10.1016/j.compenvurbsys.2023.101967	Auditing the fairness of place-based crime prediction models implemented with deep learning approaches	2023	Computers, Environment and Urban Systems	yes
+912e3fac599481950d29d01a5863161d90cbb25c	10.1016/j.compenvurbsys.2024.102245	Capturing the spatial arrangement of POIs in crime modeling	2025	Computers, Environment and Urban Systems	yes
+9fd7693832026af7376c19e14fc4ef0c9dca3cf4	10.1016/j.compenvurbsys.2025.102390	How well do street view images predict crime rates in London? A comparison with social and macro-level environmental features	2026	Computers, Environment and Urban Systems	yes
+371496da261e2adb868a1df283256f634d25c0ce	10.1016/j.eswa.2024.125940	MRAGNN: Refining urban spatio-temporal prediction of crime occurrence with multi-type crime correlation learning	2024	Expert systems with applications	yes
+2ee1af57826f4f0b6756d838abcac2ed1688977c	10.1016/j.eswa.2025.128539	A rotation invariant Co-ordinate convolutional neural network based crime prediction utilizing Jarrett-Butterfly optimization algorithm	2025	Expert systems with applications	yes
+73c3c8552fa9007ec85a7d440ea2657a1919cf02	10.1016/j.eswa.2025.129181	Theory-guided agent-based modeling for crime prediction and decision support		Expert systems with applications	yes
+3dec853345a6efe1dda2bf3fa004c8946ebeb814	10.1016/j.eswa.2026.131694	Deep learning for crime analytics: A prioritization system for user reports from safety apps	2026	Expert systems with applications	yes
+cc7439e0c1cf762cae2d4ee5460c1c4fdb3e9529	10.1016/j.inffus.2026.104164	Multimodal spatio-temporal fusion: A generalizable GCN-LSTM with attention framework for urban application	2026	Information Fusion	yes
+3e5478829557ea899a5aa8aeb1b131a5d5b3101c	10.1016/j.ins.2023.119414	Crime risk prediction incorporating geographical spatiotemporal dependency into machine learning models	2023	Information Sciences	yes
+455aefcf70a27415d6f7f24ea3b4286154655945	10.1016/j.ipm.2025.104227	Augmented graph information bottleneck with type-aware periodicity heterogeneity for explainable crime prediction	2025	Information Processing & Management	yes
+cfd846be4939f5b66048edc933e5c6fced694740	10.1016/j.knosys.2023.110450	Social network analysis for crime rate detection using Spizella swarm optimization based BiLSTM classifier	2023	Knowledge-Based Systems	yes
+d4af3f664f7741b7986ce4267ec0c9f015ac9425	10.1016/j.neucom.2026.133217	FedCrime: Zero-inflation adaptive federated learning for crime prediction	2026	Neurocomputing	yes
+371ac1a3c25aa7cfa17a33b083582cbe9a82473f	10.1016/j.scs.2024.105873	Smart Hotspot Detection Using Geospatial Artificial Intelligence: A Machine Learning Approach to Reduce Flood Risk	2024	Sustainable cities and society	yes
+fee5d33af8cc8aaded4808201fd64c5de6849627	10.1016/j.scs.2025.106507	Crime Mapping in Urban Environments Using Explainable AI: A Case Study of Daegu, Korea	2025	Sustainable cities and society	yes
+caad61e196f485a092ae7cb8bde6ca87513fbfc0	10.1093/bjc/azae018	Estimating the Reliability of Crime Data in Geographic Areas	2024	British Journal of Criminology	yes
+046be8a66c5ec0d7bb7bc1b707a6fc59126e3fbb	10.1109/access.2023.3308967	Multimodal Deep Learning Crime Prediction Using Tweets	2023	IEEE Access	yes
+8a6d78ae6bab1715bd78750e84ce608a85e95ace	10.1109/access.2024.3473296	A Reinforcement Learning Approach Combined With Scope Loss Function for Crime Prediction on Twitter (X)	2024	IEEE Access	yes
+82a003159430c7358360b41382e4ea90cd5f86df	10.1109/tcss.2022.3207987	Unsupervised Domain Adaptation for Crime Risk Prediction Across Cities	2023	IEEE Transactions on Computational Social Systems	yes
+5f3dc4319943f8a4e8a3d7cf1fa0ee0f0593b01e	10.1109/tcss.2025.3550196	START: A Spatiotemporal Autoregressive Transformer for Enhancing Crime Prediction Accuracy	2025	IEEE Transactions on Computational Social Systems	yes
+4a643d6091baedc24f3e277b989f32e41bfeafe4	10.1145/3665141	HDM-GNN: A Heterogeneous Dynamic Multi-view Graph Neural Network for Crime Prediction	2024	ACM transactions on sensor networks	yes
+64bbc2a4d0d2dd63c44e85f02095a3fe8bf7c131	10.1177/00420980241270948	Analysing non-linearities and threshold effects between street-level built environments and local crime patterns: An interpretable machine learning approach	2024	Urban studies	yes
+7cfd39af0950583c44959bf1ced7f88d0575f553	10.1177/02697580241296569	Trust in the police and crime reporting: Reassessing assumptions in the context of violent crime in England and Wales	2024	International Review of Victimology	yes
+6d046bba5f48f8f8791c7b2a0a8c388e1f6fdc46	10.3390/ijgi13070229	Graph Representation Learning for Street-Level Crime Prediction	2024	ISPRS Int. J. Geo Inf.	yes
+3bee71a180b066545effc639ff1d39eec1854736		3bee71a180b066545effc639ff1d39eec1854736			no
+62c5dbdf17f569347621078a6341cd1d3199bb22		62c5dbdf17f569347621078a6341cd1d3199bb22			no
+aa8183aae0d95459103fb25d2810af7585da482d		aa8183aae0d95459103fb25d2810af7585da482d			no
+5434ef4c0a383ea2728e7e9481c32d7d08b50f69	10.1145/3269206.3271793	DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction	2018	International Conference on Information and Knowledge Management	no
+dff6af7328dc52e8bf9e963a4b7cb04d193eb008		dff6af7328dc52e8bf9e963a4b7cb04d193eb008			no
+1275f2fcdf911abf013301173d2d06ad35c2b739		1275f2fcdf911abf013301173d2d06ad35c2b739			no
+a5ba556a23c57d1e8b57a5ee0e3e01736e06e646		a5ba556a23c57d1e8b57a5ee0e3e01736e06e646			no
+32b246099484de62f623cf4f017395cbe76b1a21	10.1198/jasa.2011.ap09546	Self-Exciting Point Process Modeling of Crime	2011		no
+2e9d221c206e9503ceb452302d68d10e293f2a10		2e9d221c206e9503ceb452302d68d10e293f2a10			no
+ef8962fc83d00277fc18d2df3bd3574813636183	10.1093/bjc/azaa067	Measuring the dark figure of crime in geographic areas: Small area estimation from the Crime Survey for England and Wales	2020		no
+5fc4fedcdefa224099492b9acbff7040ae021b36	10.1109/iciss63372.2025.11076194	Optimizing Crime Classification: HQFNN with Triangulation Topology Aggregation Optimizer	2025	International Conferences on Information Science and System	no
+90ab9e0ec606e21dd9a8ba7bd816757e3201a000		90ab9e0ec606e21dd9a8ba7bd816757e3201a000			no
+d60f889b22a8f7ac243cd8a2b535f4174ccde687		d60f889b22a8f7ac243cd8a2b535f4174ccde687			no
+131fe7292596e4f0262dbb208caa48e86633935e		131fe7292596e4f0262dbb208caa48e86633935e			no
+942c56c67f748d4c7b4a08a1d7ffd59234a16403		942c56c67f748d4c7b4a08a1d7ffd59234a16403			no
+6b9c604ebbca40502b604b066043ace484fb0266		6b9c604ebbca40502b604b066043ace484fb0266			no
+bc0f18be83322d389b74fc43963221852f446c48		bc0f18be83322d389b74fc43963221852f446c48			no
+190036bdec136f8795493ac590f6c2d4f0134065		190036bdec136f8795493ac590f6c2d4f0134065			no
+e529052b14e8b05568a72b195ad8607fd354818d		e529052b14e8b05568a72b195ad8607fd354818d			no
+ef899ea7cafc5f55aa6f63de2359a55adb026c76		ef899ea7cafc5f55aa6f63de2359a55adb026c76			no
+47638ab6f074f2eb65590973ec3b516bcb6c8254		47638ab6f074f2eb65590973ec3b516bcb6c8254			no
+8af6132bf57ff426f5fe9d74b1c78b39f012d03b	10.1007/s10940-016-9321-x	Predictive Crime Mapping: Arbitrary Grids or Street Networks?	2016	Journal of quantitative criminology	no
+d3e0ce6b738a433d6521b71fe78d9f0bf0e8bdf9		d3e0ce6b738a433d6521b71fe78d9f0bf0e8bdf9			no
+828ac0b2fbc5bbe7b477420f2c248fa8b16be255		828ac0b2fbc5bbe7b477420f2c248fa8b16be255			no
+250c62c2d0b0c50542912d04868b05f7155dd590		250c62c2d0b0c50542912d04868b05f7155dd590			no
+264f1e6f36a0fdf368357370d0e29a7645fc9e26		264f1e6f36a0fdf368357370d0e29a7645fc9e26			no
+bf152e788c99598534f49ac227c7fcedc5e00311		bf152e788c99598534f49ac227c7fcedc5e00311			no
+f41065c69358bac26743fb67dba8509a898b1e3f		f41065c69358bac26743fb67dba8509a898b1e3f			no
+879113427f2294031edb144670871911da10987f	10.1016/j.compenvurbsys.2019.101403	Graph deep learning model for network-based predictive hotspot mapping of sparse spatio-temporal events	2019	Computers, Environment and Urban Systems	no
+7fa32521ca0c15111c26804053a04a05f132d9db		7fa32521ca0c15111c26804053a04a05f132d9db			no
+ba1466a0a3e3d47f8d801a3ef84f25b2d3de39a1		ba1466a0a3e3d47f8d801a3ef84f25b2d3de39a1			no
+56c17aef31e4b3c1fc99785a77928fce3bf1b3ee		56c17aef31e4b3c1fc99785a77928fce3bf1b3ee			no
+06cf6b26c021ed0fa6a5b44b20fecb0788295dd7	10.1111/j.1745-9125.2010.00182.x	Reporting crime to the police, 1973–2005: a multivariate analysis of long‐term trends in the National Crime Survey (NCS) and National Crime Victimization Survey (NCVS)	2010		no
+fb0c51d7c28ce1eec654e6e247239040752f689d		fb0c51d7c28ce1eec654e6e247239040752f689d			no
+cd54da861a96d6274ef82db6c228873760f82f50		cd54da861a96d6274ef82db6c228873760f82f50			no
+5bfb88c54b6a5152b34d529482a60d37b7c32eb6		5bfb88c54b6a5152b34d529482a60d37b7c32eb6			no
+3750754b648702e930c168fb33774bef5718f3f5	10.1007/s11280-017-0515-4	CrimeTelescope: crime hotspot prediction based on urban and social media data fusion	2017	World wide web (Bussum)	no
+e6c09b62a01b384159d1f50f7cbab5b78d56163b		e6c09b62a01b384159d1f50f7cbab5b78d56163b			no
+081a67ce5373705400627ca5fad2e429d093e4ff	10.1109/jsyst.2020.3023762	ESCORT: Fine-Grained Urban Crime Risk Inference Leveraging Heterogeneous Open Data	2021	IEEE Systems Journal	no
+4db3c1599b38f839eb581aac5c7963ad1a385c3d		4db3c1599b38f839eb581aac5c7963ad1a385c3d			no
+7ff6c0865c1db70beaae50364fd3596d4a308a39		7ff6c0865c1db70beaae50364fd3596d4a308a39			no
+dfd3206b8a62fc7b132a867a88f84c698ed595c7		dfd3206b8a62fc7b132a867a88f84c698ed595c7			no
+09c916d760853d3d9dd16f58d5500168e8439730		09c916d760853d3d9dd16f58d5500168e8439730			no
+f7d6050d188d558dbbcc3546c5f3fe725d43e812		f7d6050d188d558dbbcc3546c5f3fe725d43e812			no
+29d1efdd28464e3d41528e0b2b91e928b7692394		29d1efdd28464e3d41528e0b2b91e928b7692394			no
+29080f5073948197e8007d5ee02415791467bee6		29080f5073948197e8007d5ee02415791467bee6			no
+df5e5940a26eaa185215e4cbf98fe684c979e453		df5e5940a26eaa185215e4cbf98fe684c979e453			no
+13eaf6d575252132ac3ac0d0dd83f8bce0bdebe4		13eaf6d575252132ac3ac0d0dd83f8bce0bdebe4			no
