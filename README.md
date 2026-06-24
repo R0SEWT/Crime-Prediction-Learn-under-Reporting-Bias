@@ -17,8 +17,16 @@
 | `field_landscape_corpus.tsv` | Broad crime prediction landscape used for bibliometric clustering (§4.3) — papers with SPECTER2 embeddings from Semantic Scholar | 1,107 |
 | `reporting_landscape_corpus.tsv` | Reporting bias / dark figure landscape used for overlap analysis (§4.4) — papers with SPECTER2 embeddings | 1,184 |
 | `extended_core_90papers.tsv` | Extended citation core: 40 SLR papers + 50 papers from citation snowballing (§4.2) | 90 |
+| `excluded_records.tsv` | Full-text exclusions with documented reasons (DOI, stage, IC/EC criterion) | 4 |
 
 All TSV files are UTF-8, tab-separated, with a header row.
+
+### PRISMA flow
+
+`prisma_counts.md` documents the PRISMA 2020 record flow (Figure 1 of the paper),
+stating which stage counts are exact and which are reconstructed estimates, with the
+source of each. See it for the search-channel breakdown and the exact composition of the
+40 included studies.
 
 ### `code/` — Reproduction scripts
 
