@@ -1,0 +1,41 @@
+{
+  "n": 44,
+  "cohen_kappa": 0.8451,
+  "percent_agreement": 0.9773,
+  "expected_chance": 0.8533,
+  "confusion": {
+    "orig_pass__christian_pass": 40,
+    "orig_pass__christian_fail": 0,
+    "orig_fail__christian_pass": 1,
+    "orig_fail__christian_fail": 3
+  },
+  "original_dist": {
+    "pass": 40,
+    "fail": 4
+  },
+  "christian_dist": {
+    "pass": 41,
+    "fail": 3
+  },
+  "n_disagreements": 1,
+  "disagreements": [
+    {
+      "record_id": "SLR1-0044",
+      "title": "Estimating Crime Counts and Characteristics from NIBRS Data",
+      "original": "excluded",
+      "christian": "uncertain_fulltext",
+      "christian_reason": "IC4",
+      "christian_conf": "low",
+      "note": "Titulo sobre conteos/caracteristicas NIBRS; sin abstract local no se puede confirmar ML/DL o reporting-bias desde titulo"
+    }
+  ],
+  "christian_reasons": {
+    "IC4": 43,
+    "EC6": 1
+  },
+  "christian_confidence": {
+    "high": 29,
+    "medium": 14,
+    "low": 1
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "circular×concat": [
+    {
+      "macro": 0.21916664023834181,
+      "robo_hurto_callejero": 0.36617561182944197,
+      "extorsion": 0.13347817898709147,
+      "estafa": 0.21182937830143647,
+      "violencia_familiar_sexual": 0.33577559599136025,
+      "secuestro": 0.04857443608237896
+    },
+    {
+      "macro": 0.19713963339332982,
+      "robo_hurto_callejero": 0.36601098326525006,
+      "extorsion": 0.13025392497882324,
+      "estafa": 0.20843658911744287,
+      "violencia_familiar_sexual": 0.3408317163777116,
+      "secuestro": -0.05983504677257878
+    },
+    {
+      "macro": 0.18670328897606447,
+      "robo_hurto_callejero": 0.3685459569684177,
+      "extorsion": 0.0845756659789435,
+      "estafa": 0.21570291434052913,
+      "violencia_familiar_sexual": 0.34091537147346207,
+      "secuestro": -0.07622346388102993
+    }
+  ],
+  "circular×attention": [
+    {
+      "macro": 0.26136054856628255,
+      "robo_hurto_callejero": 0.4108472227683027,
+      "extorsion": 0.14539421581652312,
+      "estafa": 0.2951943573265672,
+      "violencia_familiar_sexual": 0.3828094498130495,
+      "secuestro": 0.07255749710697015
+    },
+    {
+      "macro": 0.2431693377924063,
+      "robo_hurto_callejero": 0.3643883997400885,
+      "extorsion": 0.15198370526823554,
+      "estafa": 0.21123040670065457,
+      "violencia_familiar_sexual": 0.3405913383767215,
+      "secuestro": 0.14765283887633146
+    },
+    {
+      "macro": 0.2355368952678513,
+      "robo_hurto_callejero": 0.3687669482251086,
+      "extorsion": 0.14689345386174968,
+      "estafa": 0.23385534431923563,
+      "violencia_familiar_sexual": 0.326646461983365,
+      "secuestro": 0.10152226794979759
+    }
+  ],
+  "M1×concat": [
+    {
+      "macro": 0.18137874968632112,
+      "robo_hurto_callejero": 0.3684944964735426,
+      "extorsion": 0.128154852356066,
+      "estafa": 0.21145060899919427,
+      "violencia_familiar_sexual": 0.3377002793673628,
+      "secuestro": -0.13890648876456
+    },
+    {
+      "macro": 0.20191944077659577,
+      "robo_hurto_callejero": 0.3673483008019251,
+      "extorsion": 0.13378449176532514,
+      "estafa": 0.21196894930926236,
+      "violencia_familiar_sexual": 0.3435139142159615,
+      "secuestro": -0.04701845220949517
+    },
+    {
+      "macro": 0.18602718907149712,
+      "robo_hurto_callejero": 0.371592784153809,
+      "extorsion": 0.09188131059820501,
+      "estafa": 0.21782159319844885,
+      "violencia_familiar_sexual": 0.34400737759146705,
+      "secuestro": -0.09516712018444412
+    }
+  ],
+  "M1×attention": [
+    {
+      "macro": 0.2788776932805331,
+      "robo_hurto_callejero": 0.38861652435977273,
+      "extorsion": 0.20031887865060222,
+      "estafa": 0.24419658445440343,
+      "violencia_familiar_sexual": 0.34976808159165373,
+      "secuestro": 0.21148839734623323
+    },
+    {
+      "macro": 0.25622806934055786,
+      "robo_hurto_callejero": 0.39297564836143434,
+      "extorsion": 0.14703388070853934,
+      "estafa": 0.24880225797575767,
+      "violencia_familiar_sexual": 0.36755097049858665,
+      "secuestro": 0.12477758915847133
+    },
+    {
+      "macro": 0.25739391687455615,
+      "robo_hurto_callejero": 0.3801508337119913,
+      "extorsion": 0.1504117853550861,
+      "estafa": 0.2535671569751901,
+      "violencia_familiar_sexual": 0.34525389470568013,
+      "secuestro": 0.157585913624833
+    }
+  ],
+  "placebo×attention": [
+    {
+      "macro": 0.2528773809153969,
+      "robo_hurto_callejero": 0.3679573229212137,
+      "extorsion": 0.13451650684757546,
+      "estafa": 0.21894245522083908,
+      "violencia_familiar_sexual": 0.34575959016199326,
+      "secuestro": 0.19721102942536298
+    },
+    {
+      "macro": 0.26795620381377017,
+      "robo_hurto_callejero": 0.41650190984841456,
+      "extorsion": 0.13782518777375594,
+      "estafa": 0.2667834212606862,
+      "violencia_familiar_sexual": 0.3510988336565144,
+      "secuestro": 0.16757166652947977
+    },
+    {
+      "macro": 0.21218748400928847,
+      "robo_hurto_callejero": 0.3610565425613303,
+      "extorsion": 0.07911532879873134,
+      "estafa": 0.2502927956127794,
+      "violencia_familiar_sexual": 0.31552542360038843,
+      "secuestro": 0.054947329473212875
+    }
+  ]
+}

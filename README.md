@@ -1,6 +1,9 @@
-# Supplementary Materials S1
+# Supplementary Materials
 
-**Paper:** *Deep Learning and Spatiotemporal Modelling for Urban Crime Prediction: A Systematic Review of Architectures, Heterogeneous Data Fusion, and the Dark Figure Gap (2023–mid 2026)*
+**Papers:**
+
+1. **S1 — SLR:** *Deep Learning and Spatiotemporal Modelling for Urban Crime Prediction: A Systematic Review of Architectures, Heterogeneous Data Fusion, and the Dark Figure Gap (2023–mid 2026)*
+2. **SIMBig 2026 (empirical):** *What Can Fine-Grained Crime Prediction Learn under Reporting Bias? Label Circularity, Cross-Modal Fusion, and Cross-City Transfer in Peru* — see [`simbig/`](simbig/) for the full experimental package (manuscript → script/report/metrics map).
 
 **Authors:** Rody Sebastian Vilchez Marin · Christian Aaron Velasquez Borasino  
 **Affiliation:** Universidad Peruana de Ciencias Aplicadas (UPC), Lima, Peru
@@ -8,6 +11,23 @@
 ---
 
 ## Contents
+
+### `prisma/` — PRISMA S1 verifiable record (SLR)
+
+| File | Description |
+|------|-------------|
+| `prisma_s1.md` | Tally verification (manuscript vs extraction stubs), included/excluded tables with provenance; regenerable via `build_prisma_s1.py` in the main pipeline |
+| `prisma_s1_included.csv` | The 40 included studies with DOI, journal, quartile, year, RQs |
+| `prisma_s1_excluded.csv` | The 4 full-text exclusions with documented IC/EC reason |
+
+### `screening/` — Dual-screening reliability (SLR §2)
+
+| File | Description |
+|------|-------------|
+| `screening_kappa.md` | Inter-rater agreement analysis (Cohen's κ) for the dual re-screening |
+| `screening_kappa.json` | Raw κ computation output |
+| `screening_universe.csv` | Recoverable screening universe |
+| `christian_screening_template.csv` / `screening_adjudication.csv` | Second-reviewer blind template and adjudicated disagreements |
 
 ### `dois/` — Paper identifier lists
 
@@ -34,6 +54,12 @@ source of each. See it for the search-channel breakdown and the exact compositio
 |------|-------------|
 | `cluster_robustness.py` | k-sensitivity analysis for §4.4: clusters `reporting_landscape_corpus` at k∈{7,10,12,15} and counts SLR papers in reporting-bias clusters. Expected result: 3 papers (0.25%) for k∈{10,12,15}. |
 | `combined_search.py` | Post-hoc combined search (§2.3): CrossRef queries combining DL crime prediction + dark figure terms. Expected result: 0 additional papers, confirming L3=0 is not a search design artefact. |
+| `fetch_field_corpus.py` | Builds the broad field corpus from Semantic Scholar bulk search (presets, cap) |
+| `cluster_field.py` | SPECTER2 k-means clustering + PCA projection of the field corpus |
+| `build_core_ext.py` | Citation snowballing → extended core; bibliographic coupling + co-citation |
+| `embed_course_specter2.py` | Local SPECTER2 embeddings for the course corpus (torch env: `requirements-embed.txt`) |
+| `build_semantic_edges.py` | k-NN semantic edges over the course embeddings (numpy only) |
+| `s2_client.py` | Shared Semantic Scholar client (1 req/s, retry on 429; key via `S2_API_KEY` env) |
 
 ---
 
