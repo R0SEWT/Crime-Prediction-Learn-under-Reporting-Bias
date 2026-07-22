@@ -1,0 +1,2601 @@
+{
+  "entries": {
+    "composition_l1.latent.annualised": {
+      "canonical": true,
+      "display": "0.738",
+      "estimator": "shares renormalizadas, benchmark enapres_anualizado",
+      "family": "composition_l1.latent",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "distancia L1 de shares vs benchmark ENAPRES (4 cats, excl. VF)",
+      "value": 0.738428,
+      "variant": "annualised"
+    },
+    "composition_l1.latent.raw": {
+      "canonical": false,
+      "display": "0.801",
+      "estimator": "shares renormalizadas, benchmark enapres_crudo",
+      "family": "composition_l1.latent",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "distancia L1 de shares vs benchmark ENAPRES (4 cats, excl. VF)",
+      "value": 0.800597,
+      "variant": "raw"
+    },
+    "composition_l1.observed.annualised": {
+      "canonical": true,
+      "display": "0.299",
+      "estimator": "shares renormalizadas, benchmark enapres_anualizado",
+      "family": "composition_l1.observed",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "distancia L1 de shares vs benchmark ENAPRES (4 cats, excl. VF)",
+      "value": 0.298604,
+      "variant": "annualised"
+    },
+    "composition_l1.observed.raw": {
+      "canonical": false,
+      "display": "0.238",
+      "estimator": "shares renormalizadas, benchmark enapres_crudo",
+      "family": "composition_l1.observed",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "distancia L1 de shares vs benchmark ENAPRES (4 cats, excl. VF)",
+      "value": 0.237671,
+      "variant": "raw"
+    },
+    "composition_share_latent.estafa.pooled": {
+      "canonical": true,
+      "display": "58.0",
+      "estimator": "media posterior EB Beta-Binomial (a/(a+b)), renormalizada",
+      "family": "composition_share_latent.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de la superficie latente (4 cats, excl. VF)",
+      "value": 57.987384,
+      "variant": "pooled"
+    },
+    "composition_share_latent.extorsion.pooled": {
+      "canonical": true,
+      "display": "2.5",
+      "estimator": "media posterior EB Beta-Binomial (a/(a+b)), renormalizada",
+      "family": "composition_share_latent.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de la superficie latente (4 cats, excl. VF)",
+      "value": 2.513759,
+      "variant": "pooled"
+    },
+    "composition_share_latent.robo_hurto_callejero.pooled": {
+      "canonical": true,
+      "display": "39.2",
+      "estimator": "media posterior EB Beta-Binomial (a/(a+b)), renormalizada",
+      "family": "composition_share_latent.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de la superficie latente (4 cats, excl. VF)",
+      "value": 39.227036,
+      "variant": "pooled"
+    },
+    "composition_share_latent.secuestro.pooled": {
+      "canonical": true,
+      "display": "0.3",
+      "estimator": "media posterior EB Beta-Binomial (a/(a+b)), renormalizada",
+      "family": "composition_share_latent.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de la superficie latente (4 cats, excl. VF)",
+      "value": 0.271821,
+      "variant": "pooled"
+    },
+    "composition_share_police.estafa.pooled": {
+      "canonical": true,
+      "display": "7.8",
+      "estimator": "conteos pooled 2019–2024 renormalizados",
+      "family": "composition_share_police.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de denuncias MININTER (4 cats, excl. VF)",
+      "value": 7.845345,
+      "variant": "pooled"
+    },
+    "composition_share_police.extorsion.pooled": {
+      "canonical": true,
+      "display": "3.8",
+      "estimator": "conteos pooled 2019–2024 renormalizados",
+      "family": "composition_share_police.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de denuncias MININTER (4 cats, excl. VF)",
+      "value": 3.775386,
+      "variant": "pooled"
+    },
+    "composition_share_police.robo_hurto_callejero.pooled": {
+      "canonical": true,
+      "display": "88.0",
+      "estimator": "conteos pooled 2019–2024 renormalizados",
+      "family": "composition_share_police.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de denuncias MININTER (4 cats, excl. VF)",
+      "value": 88.043556,
+      "variant": "pooled"
+    },
+    "composition_share_police.secuestro.pooled": {
+      "canonical": true,
+      "display": "0.3",
+      "estimator": "conteos pooled 2019–2024 renormalizados",
+      "family": "composition_share_police.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de denuncias MININTER (4 cats, excl. VF)",
+      "value": 0.335713,
+      "variant": "pooled"
+    },
+    "composition_share_survey.estafa.annualised": {
+      "canonical": true,
+      "display": "22.6",
+      "estimator": "benchmark enapres_anualizado, renormalizado",
+      "family": "composition_share_survey.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 22.612529,
+      "variant": "annualised"
+    },
+    "composition_share_survey.estafa.raw": {
+      "canonical": false,
+      "display": "19.6",
+      "estimator": "benchmark enapres_crudo, renormalizado",
+      "family": "composition_share_survey.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 19.631606,
+      "variant": "raw"
+    },
+    "composition_share_survey.extorsion.annualised": {
+      "canonical": true,
+      "display": "1.0",
+      "estimator": "benchmark enapres_anualizado, renormalizado",
+      "family": "composition_share_survey.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 0.967203,
+      "variant": "annualised"
+    },
+    "composition_share_survey.extorsion.raw": {
+      "canonical": false,
+      "display": "0.8",
+      "estimator": "benchmark enapres_crudo, renormalizado",
+      "family": "composition_share_survey.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 0.839701,
+      "variant": "raw"
+    },
+    "composition_share_survey.robo_hurto_callejero.annualised": {
+      "canonical": true,
+      "display": "75.9",
+      "estimator": "benchmark enapres_anualizado, renormalizado",
+      "family": "composition_share_survey.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 75.921535,
+      "variant": "annualised"
+    },
+    "composition_share_survey.robo_hurto_callejero.raw": {
+      "canonical": false,
+      "display": "79.1",
+      "estimator": "benchmark enapres_crudo, renormalizado",
+      "family": "composition_share_survey.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 79.095707,
+      "variant": "raw"
+    },
+    "composition_share_survey.secuestro.annualised": {
+      "canonical": true,
+      "display": "0.5",
+      "estimator": "benchmark enapres_anualizado, renormalizado",
+      "family": "composition_share_survey.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 0.498733,
+      "variant": "annualised"
+    },
+    "composition_share_survey.secuestro.raw": {
+      "canonical": false,
+      "display": "0.4",
+      "estimator": "benchmark enapres_crudo, renormalizado",
+      "family": "composition_share_survey.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:36:48-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/validacion.json": "753539da0d43dd29711482dc12c0e29450496e5714d4ca05c08eace00891b672"
+        },
+        "script": "scripts/build_composition_canon.py",
+        "script_sha256": "31cf19702a049aea72c408f519212cece4b9b90eb60f88e6ad4dc1ec8c2dc661"
+      },
+      "unit": "% de victimización ENAPRES (4 cats, excl. VF)",
+      "value": 0.432987,
+      "variant": "raw"
+    },
+    "kp_bound_hi.estafa.lima_nu99": {
+      "canonical": true,
+      "display": "0.259",
+      "estimator": "Kreider-Pepper: declaraciones veraces ≥ν, sin sobre-reporte",
+      "family": "kp_bound_hi.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "cota superior región identificación parcial de r̂ (ν=0.99, Lima pooled)",
+      "value": 0.2593,
+      "variant": "lima_nu99"
+    },
+    "kp_bound_hi.robo_hurto_callejero.lima_nu99": {
+      "canonical": true,
+      "display": "0.287",
+      "estimator": "Kreider-Pepper: declaraciones veraces ≥ν, sin sobre-reporte",
+      "family": "kp_bound_hi.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "cota superior región identificación parcial de r̂ (ν=0.99, Lima pooled)",
+      "value": 0.2873,
+      "variant": "lima_nu99"
+    },
+    "kp_bound_lo.estafa.lima_nu99": {
+      "canonical": true,
+      "display": "0.011",
+      "estimator": "Kreider-Pepper: declaraciones veraces ≥ν, sin sobre-reporte",
+      "family": "kp_bound_lo.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "cota inferior región identificación parcial de r̂ (ν=0.99, Lima pooled)",
+      "value": 0.0106,
+      "variant": "lima_nu99"
+    },
+    "kp_bound_lo.robo_hurto_callejero.lima_nu99": {
+      "canonical": true,
+      "display": "0.199",
+      "estimator": "Kreider-Pepper: declaraciones veraces ≥ν, sin sobre-reporte",
+      "family": "kp_bound_lo.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "cota inferior región identificación parcial de r̂ (ν=0.99, Lima pooled)",
+      "value": 0.1985,
+      "variant": "lima_nu99"
+    },
+    "kp_point.estafa.lima_pooled": {
+      "canonical": true,
+      "display": "0.014",
+      "estimator": "Σw·RX/Σw·X, Lima pooled",
+      "family": "kp_point.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "r̂ directo pooled P(R|X) del universo KP (≠ EB μ de la superficie)",
+      "value": 0.0141,
+      "variant": "lima_pooled"
+    },
+    "kp_point.robo_hurto_callejero.lima_pooled": {
+      "canonical": true,
+      "display": "0.218",
+      "estimator": "Σw·RX/Σw·X, Lima pooled",
+      "family": "kp_point.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "r̂ directo pooled P(R|X) del universo KP (≠ EB μ de la superficie)",
+      "value": 0.2179,
+      "variant": "lima_pooled"
+    },
+    "kp_prevalence.estafa.lima_pooled": {
+      "canonical": true,
+      "display": "3.0",
+      "estimator": "FACTOR-weighted, años con el subtipo disponible",
+      "family": "kp_prevalence.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "% prevalencia declarada P(X=1), Lima pooled (denominador de la región KP)",
+      "value": 3.02,
+      "variant": "lima_pooled"
+    },
+    "kp_prevalence.robo_hurto_callejero.lima_pooled": {
+      "canonical": true,
+      "display": "10.3",
+      "estimator": "FACTOR-weighted, años con el subtipo disponible",
+      "family": "kp_prevalence.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:12-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_fraud_bounds.py",
+        "script_sha256": "efe37b24ed0977c507fd73c0c621e6794101619ea7c565b2c64711bd86745317"
+      },
+      "unit": "% prevalencia declarada P(X=1), Lima pooled (denominador de la región KP)",
+      "value": 10.271,
+      "variant": "lima_pooled"
+    },
+    "multiplier.estafa.incident": {
+      "canonical": false,
+      "display": "1479",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 1479.374601,
+      "variant": "incident"
+    },
+    "multiplier.estafa.victim": {
+      "canonical": true,
+      "display": "76",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 76.541396,
+      "variant": "victim"
+    },
+    "multiplier.extorsion.incident": {
+      "canonical": false,
+      "display": "15.5",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 15.487771,
+      "variant": "incident"
+    },
+    "multiplier.extorsion.victim": {
+      "canonical": true,
+      "display": "6.9",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 6.914499,
+      "variant": "victim"
+    },
+    "multiplier.robo_hurto_callejero.incident": {
+      "canonical": false,
+      "display": "15.8",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 15.845365,
+      "variant": "incident"
+    },
+    "multiplier.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "4.6",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 4.627059,
+      "variant": "victim"
+    },
+    "multiplier.secuestro.victim": {
+      "canonical": true,
+      "display": "8.4",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 8.408685,
+      "variant": "victim"
+    },
+    "multiplier.violencia_familiar_sexual.incident": {
+      "canonical": false,
+      "display": "34.6",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.violencia_familiar_sexual",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 34.62347,
+      "variant": "incident"
+    },
+    "multiplier.violencia_familiar_sexual.victim": {
+      "canonical": true,
+      "display": "11.1",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.violencia_familiar_sexual",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 11.088796,
+      "variant": "victim"
+    },
+    "multiplier_ci_hi.robo_hurto_callejero.incident": {
+      "canonical": false,
+      "display": "19.1",
+      "estimator": "MC 200000 sobre posteriors Beta EB, seed=0",
+      "family": "multiplier_ci_hi.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:37:06-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio_incident.csv": "0f0524de2333ed6ea85197e03bf5de6cd65a3398203baef05e06d6ae69a86e69",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/compute_latent_ci.py",
+        "script_sha256": "23182ffade8abaf3eb156c545225a8809b1a934bc25d13abed34431c58bae452"
+      },
+      "unit": "extremo IC95 MC del multiplicador pooled (incident-level)",
+      "value": 19.087872,
+      "variant": "incident"
+    },
+    "multiplier_ci_hi.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "4.9",
+      "estimator": "MC 200000 sobre posteriors Beta EB, seed=0",
+      "family": "multiplier_ci_hi.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:37:01-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/compute_latent_ci.py",
+        "script_sha256": "23182ffade8abaf3eb156c545225a8809b1a934bc25d13abed34431c58bae452"
+      },
+      "unit": "extremo IC95 MC del multiplicador pooled (victim-level)",
+      "value": 4.914673,
+      "variant": "victim"
+    },
+    "multiplier_ci_lo.robo_hurto_callejero.incident": {
+      "canonical": false,
+      "display": "15.3",
+      "estimator": "MC 200000 sobre posteriors Beta EB, seed=0",
+      "family": "multiplier_ci_lo.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:37:06-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio_incident.csv": "0f0524de2333ed6ea85197e03bf5de6cd65a3398203baef05e06d6ae69a86e69",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/compute_latent_ci.py",
+        "script_sha256": "23182ffade8abaf3eb156c545225a8809b1a934bc25d13abed34431c58bae452"
+      },
+      "unit": "extremo IC95 MC del multiplicador pooled (incident-level)",
+      "value": 15.336424,
+      "variant": "incident"
+    },
+    "multiplier_ci_lo.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "4.5",
+      "estimator": "MC 200000 sobre posteriors Beta EB, seed=0",
+      "family": "multiplier_ci_lo.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:37:01-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/compute_latent_ci.py",
+        "script_sha256": "23182ffade8abaf3eb156c545225a8809b1a934bc25d13abed34431c58bae452"
+      },
+      "unit": "extremo IC95 MC del multiplicador pooled (victim-level)",
+      "value": 4.485432,
+      "variant": "victim"
+    },
+    "multiplier_definition.robo_hurto_callejero.attempt_panel": {
+      "canonical": false,
+      "display": "6.6",
+      "estimator": "EB por distrito bajo la definición dada; Y invariante",
+      "family": "multiplier_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "multiplicador Σλ*/Σy con Y fijo (denuncias robo pooled 19-24)",
+      "value": 6.589752,
+      "variant": "attempt_panel"
+    },
+    "multiplier_definition.robo_hurto_callejero.consumado_2024": {
+      "canonical": false,
+      "display": "5.4",
+      "estimator": "EB por distrito bajo la definición dada; Y invariante",
+      "family": "multiplier_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "multiplicador Σλ*/Σy con Y fijo (denuncias robo pooled 19-24)",
+      "value": 5.408736,
+      "variant": "consumado_2024"
+    },
+    "multiplier_definition.robo_hurto_callejero.consumado_panel": {
+      "canonical": true,
+      "display": "4.6",
+      "estimator": "EB por distrito bajo la definición dada; Y invariante",
+      "family": "multiplier_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "multiplicador Σλ*/Σy con Y fijo (denuncias robo pooled 19-24)",
+      "value": 4.627269,
+      "variant": "consumado_panel"
+    },
+    "multiplier_district_hi.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "5.5",
+      "estimator": "Σlatente/Σobservado por distrito, pooled 2019–2024, 41 distritos",
+      "family": "multiplier_district_hi.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:40-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/build_district_trust.py",
+        "script_sha256": "a5495916bb6e06e42f274615104615294a8d2bed80fe96e205ccaa0b5345035d"
+      },
+      "unit": "extremo del rango distrital del multiplicador víctima en la superficie",
+      "value": 5.452561,
+      "variant": "victim"
+    },
+    "multiplier_district_lo.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "3.7",
+      "estimator": "Σlatente/Σobservado por distrito, pooled 2019–2024, 41 distritos",
+      "family": "multiplier_district_lo.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:40-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/build_district_trust.py",
+        "script_sha256": "a5495916bb6e06e42f274615104615294a8d2bed80fe96e205ccaa0b5345035d"
+      },
+      "unit": "extremo del rango distrital del multiplicador víctima en la superficie",
+      "value": 3.656303,
+      "variant": "victim"
+    },
+    "phi_hat.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "147",
+      "estimator": "Beta-Binomial pseudo-verosimilitud sobre (y_eff, n_eff) panel por distrito",
+      "family": "phi_hat.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:26-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/recheck_phi_cap.py",
+        "script_sha256": "89d8646e04bd7fc903805f4dd6cdd8537d54f1a9ff27dcd53524887853a1a122"
+      },
+      "unit": "MLE interior de la concentración φ (perfil de verosimilitud)",
+      "value": 146.8829,
+      "variant": "victim"
+    },
+    "phi_homogeneous_multiplier.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "4.7",
+      "estimator": "Beta-Binomial μ̂ ML con φ→∞, 41 distritos",
+      "family": "phi_homogeneous_multiplier.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:26-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/recheck_phi_cap.py",
+        "script_sha256": "89d8646e04bd7fc903805f4dd6cdd8537d54f1a9ff27dcd53524887853a1a122"
+      },
+      "unit": "multiplicador víctima en el límite homogéneo φ→∞ (1/μ̂, constante por construcción)",
+      "value": 4.716881,
+      "variant": "victim"
+    },
+    "phi_lrt_p.robo_hurto_callejero.boot": {
+      "canonical": false,
+      "display": "0.007",
+      "estimator": "400 sims Binomial, seed=0, LRT perfilado",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:45:28-05:00",
+        "git_commit": "0c9ff17",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/phi_lrt_bootstrap.py",
+        "script_sha256": "72427d9250bec343c6bc642b8fda274a5eaa17a88081d57325bcbafe0f39e006"
+      },
+      "unit": "p calibrado por bootstrap paramétrico bajo H0 (r común)",
+      "value": 0.007481,
+      "variant": "boot"
+    },
+    "phi_lrt_p.robo_hurto_callejero.kappa050": {
+      "canonical": false,
+      "display": "1.000",
+      "estimator": "LRT perfilado sobre (κ·y_eff, κ·n_eff)",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:45:28-05:00",
+        "git_commit": "0c9ff17",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/phi_lrt_bootstrap.py",
+        "script_sha256": "72427d9250bec343c6bc642b8fda274a5eaa17a88081d57325bcbafe0f39e006"
+      },
+      "unit": "p χ²(1) del LRT con n_eff re-escalado ×0.5 (sensibilidad design-effect)",
+      "value": 1.0,
+      "variant": "kappa050"
+    },
+    "phi_lrt_p.robo_hurto_callejero.kappa075": {
+      "canonical": false,
+      "display": "0.393",
+      "estimator": "LRT perfilado sobre (κ·y_eff, κ·n_eff)",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:45:28-05:00",
+        "git_commit": "0c9ff17",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/phi_lrt_bootstrap.py",
+        "script_sha256": "72427d9250bec343c6bc642b8fda274a5eaa17a88081d57325bcbafe0f39e006"
+      },
+      "unit": "p χ²(1) del LRT con n_eff re-escalado ×0.75 (sensibilidad design-effect)",
+      "value": 0.39316,
+      "variant": "kappa075"
+    },
+    "phi_lrt_p.robo_hurto_callejero.kappa125": {
+      "canonical": false,
+      "display": "0.000",
+      "estimator": "LRT perfilado sobre (κ·y_eff, κ·n_eff)",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:45:28-05:00",
+        "git_commit": "0c9ff17",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/phi_lrt_bootstrap.py",
+        "script_sha256": "72427d9250bec343c6bc642b8fda274a5eaa17a88081d57325bcbafe0f39e006"
+      },
+      "unit": "p χ²(1) del LRT con n_eff re-escalado ×1.25 (sensibilidad design-effect)",
+      "value": 0.000434,
+      "variant": "kappa125"
+    },
+    "phi_lrt_p.robo_hurto_callejero.kappa150": {
+      "canonical": false,
+      "display": "0.000",
+      "estimator": "LRT perfilado sobre (κ·y_eff, κ·n_eff)",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:45:28-05:00",
+        "git_commit": "0c9ff17",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/phi_lrt_bootstrap.py",
+        "script_sha256": "72427d9250bec343c6bc642b8fda274a5eaa17a88081d57325bcbafe0f39e006"
+      },
+      "unit": "p χ²(1) del LRT con n_eff re-escalado ×1.5 (sensibilidad design-effect)",
+      "value": 3e-06,
+      "variant": "kappa150"
+    },
+    "phi_lrt_p.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "0.025",
+      "estimator": "perfil de verosimilitud Beta-Binomial, χ²(1) sin corrección de borde",
+      "family": "phi_lrt_p.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:26-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/recheck_phi_cap.py",
+        "script_sha256": "89d8646e04bd7fc903805f4dd6cdd8537d54f1a9ff27dcd53524887853a1a122"
+      },
+      "unit": "p-valor pseudo-LRT H0 φ→∞ (sin heterogeneidad distrital de r̂) vs φ̂ interior",
+      "value": 0.024958,
+      "variant": "victim"
+    },
+    "r_definition.robo_hurto_callejero.attempt_panel": {
+      "canonical": false,
+      "display": "0.161",
+      "estimator": "pooling canónico Peldaño 2, PHI_CAP vigente",
+      "family": "r_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "r̂ pooled (EB μ víctima) bajo la definición dada de robo",
+      "value": 0.161497,
+      "variant": "attempt_panel"
+    },
+    "r_definition.robo_hurto_callejero.consumado_2024": {
+      "canonical": false,
+      "display": "0.187",
+      "estimator": "pooling canónico Peldaño 2, PHI_CAP vigente",
+      "family": "r_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "r̂ pooled (EB μ víctima) bajo la definición dada de robo",
+      "value": 0.187348,
+      "variant": "consumado_2024"
+    },
+    "r_definition.robo_hurto_callejero.consumado_panel": {
+      "canonical": true,
+      "display": "0.224",
+      "estimator": "pooling canónico Peldaño 2, PHI_CAP vigente",
+      "family": "r_definition.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T15:40:54-05:00",
+        "git_commit": "5368044",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/sensitivity_definition.py",
+        "script_sha256": "3234f952522f0a058c75b95a0ce1aa64a2dca5999ff508db0661cb78238e70a6"
+      },
+      "unit": "r̂ pooled (EB μ víctima) bajo la definición dada de robo",
+      "value": 0.223973,
+      "variant": "consumado_panel"
+    },
+    "r_nonpandemic_delta.estafa.victim": {
+      "canonical": true,
+      "display": "-0.3",
+      "estimator": "EB μ Lima pooled, scope no-pandémico {2019,2022,2023,2024}",
+      "family": "r_nonpandemic_delta.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:32:47-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_covid_robustness_rates.py",
+        "script_sha256": "c09fbb7ffcf63c43935c08fb72616afcb582bba7bc29fe518d2688f8c9739c13"
+      },
+      "unit": "Δ en puntos porcentuales del r̂ EB pooled al excluir 2020-2021",
+      "value": -0.257502,
+      "variant": "victim"
+    },
+    "r_nonpandemic_delta.extorsion.victim": {
+      "canonical": true,
+      "display": "4.6",
+      "estimator": "EB μ Lima pooled, scope no-pandémico {2019,2022,2023,2024}",
+      "family": "r_nonpandemic_delta.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:32:46-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_covid_robustness_rates.py",
+        "script_sha256": "c09fbb7ffcf63c43935c08fb72616afcb582bba7bc29fe518d2688f8c9739c13"
+      },
+      "unit": "Δ en puntos porcentuales del r̂ EB pooled al excluir 2020-2021",
+      "value": 4.636726,
+      "variant": "victim"
+    },
+    "r_nonpandemic_delta.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "-0.0",
+      "estimator": "EB μ Lima pooled, scope no-pandémico {2019,2022,2023,2024}",
+      "family": "r_nonpandemic_delta.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:32:46-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_covid_robustness_rates.py",
+        "script_sha256": "c09fbb7ffcf63c43935c08fb72616afcb582bba7bc29fe518d2688f8c9739c13"
+      },
+      "unit": "Δ en puntos porcentuales del r̂ EB pooled al excluir 2020-2021",
+      "value": -0.007523,
+      "variant": "victim"
+    },
+    "r_nonpandemic_delta.secuestro.victim": {
+      "canonical": true,
+      "display": "-1.5",
+      "estimator": "EB μ Lima pooled, scope no-pandémico {2019,2022,2023,2024}",
+      "family": "r_nonpandemic_delta.secuestro",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:32:47-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_covid_robustness_rates.py",
+        "script_sha256": "c09fbb7ffcf63c43935c08fb72616afcb582bba7bc29fe518d2688f8c9739c13"
+      },
+      "unit": "Δ en puntos porcentuales del r̂ EB pooled al excluir 2020-2021",
+      "value": -1.510779,
+      "variant": "victim"
+    },
+    "r_nonpandemic_delta.violencia_familiar_sexual.victim": {
+      "canonical": true,
+      "display": "1.1",
+      "estimator": "EB μ Lima pooled, scope no-pandémico {2019,2022,2023,2024}",
+      "family": "r_nonpandemic_delta.violencia_familiar_sexual",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:32:47-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/eval_covid_robustness_rates.py",
+        "script_sha256": "c09fbb7ffcf63c43935c08fb72616afcb582bba7bc29fe518d2688f8c9739c13"
+      },
+      "unit": "Δ en puntos porcentuales del r̂ EB pooled al excluir 2020-2021",
+      "value": 1.145661,
+      "variant": "victim"
+    },
+    "r_pooled.amenazas.incident": {
+      "canonical": false,
+      "display": "0.0748",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.amenazas",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.074827,
+      "variant": "incident"
+    },
+    "r_pooled.amenazas.victim": {
+      "canonical": false,
+      "display": "0.1587",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.amenazas",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:51-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.158695,
+      "variant": "victim"
+    },
+    "r_pooled.estafa.incident": {
+      "canonical": false,
+      "display": "0.0008",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.estafa",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.000777,
+      "variant": "incident"
+    },
+    "r_pooled.estafa.victim": {
+      "canonical": false,
+      "display": "0.0139",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.estafa",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:48-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.01387,
+      "variant": "victim"
+    },
+    "r_pooled.extorsion.incident": {
+      "canonical": false,
+      "display": "0.0648",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.extorsion",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.064803,
+      "variant": "incident"
+    },
+    "r_pooled.extorsion.victim": {
+      "canonical": false,
+      "display": "0.1833",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.extorsion",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:47-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.183334,
+      "variant": "victim"
+    },
+    "r_pooled.robo_hurto_callejero.incident": {
+      "canonical": false,
+      "display": "0.064",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.064278,
+      "variant": "incident"
+    },
+    "r_pooled.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "0.224",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:53-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.223973,
+      "variant": "victim"
+    },
+    "r_pooled.robo_negocio.incident": {
+      "canonical": false,
+      "display": "0.0386",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.robo_negocio",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.038559,
+      "variant": "incident"
+    },
+    "r_pooled.robo_negocio.victim": {
+      "canonical": false,
+      "display": "0.1073",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.robo_negocio",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:51-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.10732,
+      "variant": "victim"
+    },
+    "r_pooled.robo_vehiculo.incident": {
+      "canonical": false,
+      "display": "0.0458",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.robo_vehiculo",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.045752,
+      "variant": "incident"
+    },
+    "r_pooled.robo_vehiculo.victim": {
+      "canonical": false,
+      "display": "0.2669",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.robo_vehiculo",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:50-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.266858,
+      "variant": "victim"
+    },
+    "r_pooled.secuestro.victim": {
+      "canonical": false,
+      "display": "0.1774",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.secuestro",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:49-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.177351,
+      "variant": "victim"
+    },
+    "r_pooled.violencia_familiar_sexual.incident": {
+      "canonical": false,
+      "display": "0.0297",
+      "estimator": "Beta-Binomial EB μ (pooled panel), incident-level",
+      "family": "r_pooled.violencia_familiar_sexual",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": false,
+        "emitted_at": "2026-07-19T12:17:26-05:00",
+        "git_commit": "edcd18a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.029716,
+      "variant": "incident"
+    },
+    "r_pooled.violencia_familiar_sexual.victim": {
+      "canonical": false,
+      "display": "0.0919",
+      "estimator": "Beta-Binomial EB μ (pooled panel), victim-level",
+      "family": "r_pooled.violencia_familiar_sexual",
+      "needs_policy": true,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:34:52-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/build_reporting_rate.py",
+        "script_sha256": "1be99b038f677b927cde6724cc4f11e1bf641494df069a5ab05cf59d399157cc"
+      },
+      "unit": "P(víctima denunció ante PNP), pooled",
+      "value": 0.091892,
+      "variant": "victim"
+    },
+    "rank_rho_obs_lat.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "0.992",
+      "estimator": "conteos pooled 2019–2024 de la superficie, rank 1 = mayor",
+      "family": "rank_rho_obs_lat.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-21T22:28:30-05:00",
+        "git_commit": "946a41e",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/figures_desesgo.py",
+        "script_sha256": "5cb0f8d7f17170cd47f3095e58a64cc01c038b2c8b96bb3e040048ce3f3d5d7c"
+      },
+      "unit": "Spearman entre ranking distrital observado y latente de robo (43 distritos, pooled)",
+      "value": 0.991694,
+      "variant": "victim"
+    },
+    "sinadef_rho_countcount_lat.TOTAL.counts": {
+      "canonical": true,
+      "display": "0.77",
+      "estimator": "count-vs-count, pooled distrito×año 2019–2024",
+      "family": "sinadef_rho_countcount_lat.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman conteo-homicidios vs conteo-denuncias (ilustra la huella de población)",
+      "value": 0.774484,
+      "variant": "counts"
+    },
+    "sinadef_rho_countcount_obs.TOTAL.counts": {
+      "canonical": true,
+      "display": "0.79",
+      "estimator": "count-vs-count, pooled distrito×año 2019–2024",
+      "family": "sinadef_rho_countcount_obs.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman conteo-homicidios vs conteo-denuncias (ilustra la huella de población)",
+      "value": 0.79037,
+      "variant": "counts"
+    },
+    "sinadef_rho_lat.TOTAL.counts": {
+      "canonical": false,
+      "display": "0.30",
+      "estimator": "tasa-vs-conteo, como se publicó originalmente (bug B3)",
+      "family": "sinadef_rho_lat.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios vs CONTEO de denuncias (confundido por población)",
+      "value": 0.296502,
+      "variant": "counts"
+    },
+    "sinadef_rho_lat.TOTAL.rate": {
+      "canonical": true,
+      "display": "-0.17",
+      "estimator": "rate-vs-rate (la comparación correcta post-B3)",
+      "family": "sinadef_rho_lat.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios-100k vs tasa-denuncias-100k, pooled distrital",
+      "value": -0.173481,
+      "variant": "rate"
+    },
+    "sinadef_rho_lat.robo_hurto_callejero.counts": {
+      "canonical": false,
+      "display": "0.33",
+      "estimator": "tasa-vs-conteo, como se publicó originalmente (bug B3)",
+      "family": "sinadef_rho_lat.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios vs CONTEO de denuncias (confundido por población)",
+      "value": 0.331352,
+      "variant": "counts"
+    },
+    "sinadef_rho_lat.robo_hurto_callejero.rate": {
+      "canonical": true,
+      "display": "0.03",
+      "estimator": "rate-vs-rate (la comparación correcta post-B3)",
+      "family": "sinadef_rho_lat.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios-100k vs tasa-denuncias-100k, pooled distrital",
+      "value": 0.026051,
+      "variant": "rate"
+    },
+    "sinadef_rho_obs.TOTAL.counts": {
+      "canonical": false,
+      "display": "0.34",
+      "estimator": "tasa-vs-conteo, como se publicó originalmente (bug B3)",
+      "family": "sinadef_rho_obs.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios vs CONTEO de denuncias (confundido por población)",
+      "value": 0.335871,
+      "variant": "counts"
+    },
+    "sinadef_rho_obs.TOTAL.rate": {
+      "canonical": true,
+      "display": "-0.03",
+      "estimator": "rate-vs-rate (la comparación correcta post-B3)",
+      "family": "sinadef_rho_obs.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios-100k vs tasa-denuncias-100k, pooled distrital",
+      "value": -0.031007,
+      "variant": "rate"
+    },
+    "sinadef_rho_obs.robo_hurto_callejero.counts": {
+      "canonical": false,
+      "display": "0.31",
+      "estimator": "tasa-vs-conteo, como se publicó originalmente (bug B3)",
+      "family": "sinadef_rho_obs.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios vs CONTEO de denuncias (confundido por población)",
+      "value": 0.30799,
+      "variant": "counts"
+    },
+    "sinadef_rho_obs.robo_hurto_callejero.rate": {
+      "canonical": true,
+      "display": "-0.02",
+      "estimator": "rate-vs-rate (la comparación correcta post-B3)",
+      "family": "sinadef_rho_obs.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman tasa-homicidios-100k vs tasa-denuncias-100k, pooled distrital",
+      "value": -0.024886,
+      "variant": "rate"
+    },
+    "sinadef_rho_pop_denuncias.TOTAL.counts": {
+      "canonical": true,
+      "display": "0.91",
+      "estimator": "pooled distrital 2019–2024",
+      "family": "sinadef_rho_pop_denuncias.TOTAL",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:41:27-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/silver/inei_poblacion/poblacion_distrital_2018_2026.csv": "1dd0fab641fdf14949ad7ee3e3c479c7b7043548d1dbf7007a10d3452d4c0cc3",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61",
+          "data/silver/sinadef/homicidios_distrito_anio.csv": "1d18485f5f5edc6c5148ae1d7d9883df3fe2b08229b60beac79bb53166bb4cb7"
+        },
+        "script": "scripts/validate_sinadef_convergence.py",
+        "script_sha256": "997ade1be7063a004be240282ed0953ee5ac69be7173a507c79a793adc710e6b"
+      },
+      "unit": "Spearman población distrital vs conteo de denuncias (el confundidor de B3)",
+      "value": 0.913586,
+      "variant": "counts"
+    },
+    "sparsity_median_neff.lima.pooled_dc": {
+      "canonical": true,
+      "display": "10",
+      "estimator": "(Σw)²/Σw² por celda, 5 categorías companion",
+      "family": "sparsity_median_neff.lima",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:44:57-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/sparsity_diagnostic.py",
+        "script_sha256": "39e4f8228b2917c650a8cce7578c472fef64ae2e5e0a0c9a9ea508ab30de6c77"
+      },
+      "unit": "mediana de n_eff por celda distrito×categoría, panel pooled",
+      "value": 10.156021,
+      "variant": "pooled_dc"
+    },
+    "sparsity_neff_max.lima.pooled_dc": {
+      "canonical": true,
+      "display": "469",
+      "estimator": "misma construcción",
+      "family": "sparsity_neff_max.lima",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:44:57-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/sparsity_diagnostic.py",
+        "script_sha256": "39e4f8228b2917c650a8cce7578c472fef64ae2e5e0a0c9a9ea508ab30de6c77"
+      },
+      "unit": "n_eff máximo por celda (cota superior del rango)",
+      "value": 468.895477,
+      "variant": "pooled_dc"
+    },
+    "sparsity_pct30.lima.pooled_dc": {
+      "canonical": true,
+      "display": "31",
+      "estimator": "misma construcción; umbral de la regla A/B",
+      "family": "sparsity_pct30.lima",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T14:44:57-05:00",
+        "git_commit": "ce87d8b",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240"
+        },
+        "script": "scripts/sparsity_diagnostic.py",
+        "script_sha256": "39e4f8228b2917c650a8cce7578c472fef64ae2e5e0a0c9a9ea508ab30de6c77"
+      },
+      "unit": "% de celdas distrito×categoría con n_eff≥30",
+      "value": 30.909091,
+      "variant": "pooled_dc"
+    },
+    "surface.crime_latent.sha256": {
+      "canonical": true,
+      "display": "1305988",
+      "estimator": "ancla de digest de artefacto de superficie latente (victim)",
+      "family": "surface.crime_latent",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T18:52:23-05:00",
+        "git_commit": "6e14b73",
+        "inputs_sha256": {
+          "data/silver/crime_latent_surface.parquet": "419f20423dc5ee50c57c3d1da6f9fedbea8318df31ece5a63ca2cc58c882098a"
+        },
+        "script": "scripts/pin_surface_canon.py",
+        "script_sha256": "0adc4f9add5ed0a1182969a2f206eb6616d51738701d7c92f831428dc9392bd5"
+      },
+      "unit": "bytes (digest sha256 del artefacto en provenance.inputs_sha256)",
+      "value": 1305988.0,
+      "variant": "sha256"
+    },
+    "surface.crime_latent_hybrid.sha256": {
+      "canonical": true,
+      "display": "1354980",
+      "estimator": "ancla de digest de artefacto de superficie latente (victim)",
+      "family": "surface.crime_latent_hybrid",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T18:52:23-05:00",
+        "git_commit": "6e14b73",
+        "inputs_sha256": {
+          "data/silver/crime_latent_surface_hybrid.parquet": "18e3c93f98aadcf143c7e252f1a946044ed8453d11545ea4c765171808b18d0e"
+        },
+        "script": "scripts/pin_surface_canon.py",
+        "script_sha256": "0adc4f9add5ed0a1182969a2f206eb6616d51738701d7c92f831428dc9392bd5"
+      },
+      "unit": "bytes (digest sha256 del artefacto en provenance.inputs_sha256)",
+      "value": 1354980.0,
+      "variant": "sha256"
+    },
+    "surface.latente_distrito.sha256": {
+      "canonical": true,
+      "display": "131809",
+      "estimator": "ancla de digest de artefacto de superficie latente (victim)",
+      "family": "surface.latente_distrito",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T18:52:23-05:00",
+        "git_commit": "6e14b73",
+        "inputs_sha256": {
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/pin_surface_canon.py",
+        "script_sha256": "0adc4f9add5ed0a1182969a2f206eb6616d51738701d7c92f831428dc9392bd5"
+      },
+      "unit": "bytes (digest sha256 del artefacto en provenance.inputs_sha256)",
+      "value": 131809.0,
+      "variant": "sha256"
+    },
+    "trust_spearman_rho.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "-0.57",
+      "estimator": "P616A_1 pooled 2022–2023 vs Σlat/Σobs pooled, 41 distritos",
+      "family": "trust_spearman_rho.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-20T13:35:40-05:00",
+        "git_commit": "190f30e",
+        "inputs_sha256": {
+          "data/datasets/enapres/raw/2018.zip": "8e0b257092bc28ec6901a01dfdbb997b4f9cc20ffc4f1f790389aa95a15cc2f5",
+          "data/datasets/enapres/raw/2019.zip": "ad48d164f31c9d3da2a99fdaeba96f00f61700e8aaf5b810cdb83601afc3fbc2",
+          "data/datasets/enapres/raw/2020.zip": "48da071ed5bdff268066bdb4e1b39245c24570f4c9e61cf44560d60071c44384",
+          "data/datasets/enapres/raw/2021.zip": "9d59dbff098e2cfab7a9ac19aa1b3be9b353825b1f9f7c21763f6c2cbfabf161",
+          "data/datasets/enapres/raw/2022.zip": "e3196d63563457c1b03500369918fbb168070010f8fa154c1f8b139ceae2502c",
+          "data/datasets/enapres/raw/2023.zip": "8efc55b504c376830290eb13537268e68a20d2c2044d1f90d921d9a25f8969bd",
+          "data/datasets/enapres/raw/2024.zip": "d3d4e37c59af9810e285b7f40f0e72ec535eef07fbe907e649f72c38615f0240",
+          "data/datasets/silver/latent_surface/latente_distrito_categoria_anio.csv": "42f348656607ee20f9885f1ca912ae59158c9f73cb69b9584f6ba0ec34716b61"
+        },
+        "script": "scripts/build_district_trust.py",
+        "script_sha256": "a5495916bb6e06e42f274615104615294a8d2bed80fe96e205ccaa0b5345035d"
+      },
+      "unit": "Spearman ρ(confianza-PNP distrital, multiplicador robo de la superficie)",
+      "value": -0.571603,
+      "variant": "victim"
+    }
+  },
+  "policy": {
+    "composition_l1.latent": {
+      "canonical_variant": "annualised",
+      "decimals": 3,
+      "note": "L1 de la composición LATENTE (EB) vs benchmark ENAPRES. Sube respecto de observed: la corrección ALEJA la composición del benchmark (resultado negativo del paper). canonical=annualised: cada categoría ponderada por sus olas ENAPRES. 'raw' (suma de conteos crudos) es la variante de sensibilidad; fue el vector de olas desiguales el que produjo el titular falso L1 0.99→0.11 (B1, slr-x50g).",
+      "round_mode": "half_up"
+    },
+    "composition_l1.observed": {
+      "canonical_variant": "annualised",
+      "decimals": 3,
+      "note": "L1 de la composición OBSERVADA (denuncias MININTER) vs benchmark ENAPRES, 4 cats excl. violencia familiar. canonical=annualised: cada categoría ponderada por sus olas ENAPRES. 'raw' (suma de conteos crudos) es la variante de sensibilidad; fue el vector de olas desiguales el que produjo el titular falso L1 0.99→0.11 (B1, slr-x50g).",
+      "round_mode": "half_up"
+    },
+    "composition_share_latent.estafa": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de estafa en la superficie latente EB, misma renormalización.",
+      "round_mode": "half_up"
+    },
+    "composition_share_latent.extorsion": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de extorsion en la superficie latente EB, misma renormalización.",
+      "round_mode": "half_up"
+    },
+    "composition_share_latent.robo_hurto_callejero": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de robo_hurto_callejero en la superficie latente EB, misma renormalización.",
+      "round_mode": "half_up"
+    },
+    "composition_share_latent.secuestro": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de secuestro en la superficie latente EB, misma renormalización.",
+      "round_mode": "half_up"
+    },
+    "composition_share_police.estafa": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de estafa en denuncias MININTER, pooled 2019–2024, renormalizado sobre las 4 categorías comparables (excl. violencia familiar, universos no comparables §3.1).",
+      "round_mode": "half_up"
+    },
+    "composition_share_police.extorsion": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de extorsion en denuncias MININTER, pooled 2019–2024, renormalizado sobre las 4 categorías comparables (excl. violencia familiar, universos no comparables §3.1).",
+      "round_mode": "half_up"
+    },
+    "composition_share_police.robo_hurto_callejero": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de robo_hurto_callejero en denuncias MININTER, pooled 2019–2024, renormalizado sobre las 4 categorías comparables (excl. violencia familiar, universos no comparables §3.1).",
+      "round_mode": "half_up"
+    },
+    "composition_share_police.secuestro": {
+      "canonical_variant": "pooled",
+      "decimals": 1,
+      "note": "% de secuestro en denuncias MININTER, pooled 2019–2024, renormalizado sobre las 4 categorías comparables (excl. violencia familiar, universos no comparables §3.1).",
+      "round_mode": "half_up"
+    },
+    "composition_share_survey.estafa": {
+      "canonical_variant": "annualised",
+      "decimals": 1,
+      "note": "% de estafa en victimización ENAPRES. canonical=annualised (base like-for-like); 'raw' = suma cruda de olas, variante de sensibilidad.",
+      "round_mode": "half_up"
+    },
+    "composition_share_survey.extorsion": {
+      "canonical_variant": "annualised",
+      "decimals": 1,
+      "note": "% de extorsion en victimización ENAPRES. canonical=annualised (base like-for-like); 'raw' = suma cruda de olas, variante de sensibilidad.",
+      "round_mode": "half_up"
+    },
+    "composition_share_survey.robo_hurto_callejero": {
+      "canonical_variant": "annualised",
+      "decimals": 1,
+      "note": "% de robo_hurto_callejero en victimización ENAPRES. canonical=annualised (base like-for-like); 'raw' = suma cruda de olas, variante de sensibilidad.",
+      "round_mode": "half_up"
+    },
+    "composition_share_survey.secuestro": {
+      "canonical_variant": "annualised",
+      "decimals": 1,
+      "note": "% de secuestro en victimización ENAPRES. canonical=annualised (base like-for-like); 'raw' = suma cruda de olas, variante de sensibilidad.",
+      "round_mode": "half_up"
+    },
+    "kp_bound_hi.estafa": {
+      "canonical_variant": "lima_nu99",
+      "decimals": 3,
+      "note": "Ver kp_bound_lo.",
+      "round_mode": "half_up"
+    },
+    "kp_bound_hi.robo_hurto_callejero": {
+      "canonical_variant": "lima_nu99",
+      "decimals": 3,
+      "note": "Ver kp_bound_lo.",
+      "round_mode": "half_up"
+    },
+    "kp_bound_lo.estafa": {
+      "canonical_variant": "lima_nu99",
+      "decimals": 3,
+      "note": "Región Kreider-Pepper ν=0.99, Lima pooled, crosswalk CORREGIDO (la corrida pre-fix daba [0.180,0.281] con código 8=intento robo bicicleta — refutado en reverification v2).",
+      "round_mode": "half_up"
+    },
+    "kp_bound_lo.robo_hurto_callejero": {
+      "canonical_variant": "lima_nu99",
+      "decimals": 3,
+      "note": "Región Kreider-Pepper ν=0.99, Lima pooled, crosswalk CORREGIDO (la corrida pre-fix daba [0.180,0.281] con código 8=intento robo bicicleta — refutado en reverification v2).",
+      "round_mode": "half_up"
+    },
+    "kp_point.estafa": {
+      "canonical_variant": "lima_pooled",
+      "decimals": 3,
+      "note": "r̂ directo pooled del universo KP — NO confundir con el EB μ de la superficie (robo 0.224); son estimadores distintos y §6.3 lo declara.",
+      "round_mode": "half_up"
+    },
+    "kp_point.robo_hurto_callejero": {
+      "canonical_variant": "lima_pooled",
+      "decimals": 3,
+      "note": "r̂ directo pooled del universo KP — NO confundir con el EB μ de la superficie (robo 0.224); son estimadores distintos y §6.3 lo declara.",
+      "round_mode": "half_up"
+    },
+    "kp_prevalence.estafa": {
+      "canonical_variant": "lima_pooled",
+      "decimals": 1,
+      "note": "Prevalencia P(X=1) del universo KP; gobierna el ancho (1-ν)/P(X=1).",
+      "round_mode": "half_up"
+    },
+    "kp_prevalence.robo_hurto_callejero": {
+      "canonical_variant": "lima_pooled",
+      "decimals": 1,
+      "note": "Prevalencia P(X=1) del universo KP; gobierna el ancho (1-ν)/P(X=1).",
+      "round_mode": "half_up"
+    },
+    "multiplier.estafa": {
+      "canonical_variant": "victim",
+      "decimals": 0,
+      "note": "estafa es un multiplicador INESTABLE (r̂<0.05); el paper lo cita floor a ×76 (valor ~76.5). floor = 'al menos 76x'. Cambiar a half_up daría 77.",
+      "round_mode": "floor"
+    },
+    "multiplier.extorsion": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "",
+      "round_mode": "half_up"
+    },
+    "multiplier.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "multiplicador de cifra negra robo callejero (Σλ*/Σy). victim = estimador canónico; incident vive como variante no-canónica.",
+      "round_mode": "half_up"
+    },
+    "multiplier.secuestro": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "",
+      "round_mode": "half_up"
+    },
+    "multiplier.violencia_familiar_sexual": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "",
+      "round_mode": "half_up"
+    },
+    "multiplier_ci_hi.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Extremo superior del IC95 Monte Carlo del multiplicador pooled de robo (§4.5/§5.1). Condicional al modelo EB (μ,φ fijos, φ en cota): subestima incertidumbre total; no cubre composición de olas ni universe-mismatch. La variante incident existe como no-canónica (variant-ok al citarla).",
+      "round_mode": "half_up"
+    },
+    "multiplier_ci_lo.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Extremo inferior del IC95 Monte Carlo del multiplicador pooled de robo (§4.5/§5.1). Condicional al modelo EB (μ,φ fijos, φ en cota): subestima incertidumbre total; no cubre composición de olas ni universe-mismatch. La variante incident existe como no-canónica (variant-ok al citarla).",
+      "round_mode": "half_up"
+    },
+    "multiplier_definition.robo_hurto_callejero": {
+      "canonical_variant": "consumado_panel",
+      "decimals": 1,
+      "note": "Multiplicador bajo cada definición, Y fijo (aísla el efecto definición). consumado_panel duplica multiplier.victim como gate. attempt_panel es el contrafáctico conservador: los autores tomaron el multiplicador MENOR.",
+      "round_mode": "half_up"
+    },
+    "multiplier_district_hi.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Extremo superior del rango distrital en la superficie. Ver multiplier_district_lo.",
+      "round_mode": "half_up"
+    },
+    "multiplier_district_lo.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Extremo inferior del rango distrital del multiplicador en la SUPERFICIE (lo que muestra fig-trust). Descriptivo: su magnitud es sensible al shrinkage (recheck_phi_cap), no un hallazgo.",
+      "round_mode": "half_up"
+    },
+    "phi_hat.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 0,
+      "note": "MLE interior de φ del perfil (~147). fit_eb lo trunca a PHI_CAP=100 → el CSV reporta φ=100 'exacto'. Perfil casi plano en [80,300].",
+      "round_mode": "half_up"
+    },
+    "phi_homogeneous_multiplier.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Multiplicador en el límite homogéneo φ→∞ (=1/μ̂, constante). Referencia del pseudo-LRT. El ×5.32 previo era bug (μ de 2024-only); el valor panel es ~×4.7.",
+      "round_mode": "half_up"
+    },
+    "phi_lrt_p.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 3,
+      "note": "p del pseudo-LRT H0 φ→∞ (sin heterogeneidad distrital de r̂) vs φ̂ interior. CORRECCIÓN 20-jul: con pooling panel correcto p≈0.025 (borderline) — el p=1.000 previo era artefacto del bug de colapso de años en recheck_phi_cap.py (colapsaba a la ola 2024). χ²(1) sin corrección de borde (con mezcla 50:50 sería ~la mitad). Se interpreta SOLO el orden.",
+      "round_mode": "half_up"
+    },
+    "r_definition.robo_hurto_callejero": {
+      "canonical_variant": "consumado_panel",
+      "decimals": 3,
+      "note": "Sensibilidad de DEFINICIÓN del crosswalk de robo (§6.1). consumado_panel = la elegida (duplica r_pooled.victim como gate de reproducción); attempt_panel incluye P601_6B/[10]; consumado_2024 = la base del ×5.5 previo. Citar variantes no canónicas exige variant-ok.",
+      "round_mode": "half_up"
+    },
+    "r_nonpandemic_delta.estafa": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Shift del r̂ EB pooled al excluir los años pandémicos (robustez §3.1). Reemplaza los +2.3pp/+1.6pp sin código versionado del párrafo COVID pre-reescritura.",
+      "round_mode": "half_up"
+    },
+    "r_nonpandemic_delta.extorsion": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Shift del r̂ EB pooled al excluir los años pandémicos (robustez §3.1). Reemplaza los +2.3pp/+1.6pp sin código versionado del párrafo COVID pre-reescritura.",
+      "round_mode": "half_up"
+    },
+    "r_nonpandemic_delta.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Shift del r̂ EB pooled al excluir los años pandémicos (robustez §3.1). Reemplaza los +2.3pp/+1.6pp sin código versionado del párrafo COVID pre-reescritura.",
+      "round_mode": "half_up"
+    },
+    "r_nonpandemic_delta.secuestro": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Shift del r̂ EB pooled al excluir los años pandémicos (robustez §3.1). Reemplaza los +2.3pp/+1.6pp sin código versionado del párrafo COVID pre-reescritura.",
+      "round_mode": "half_up"
+    },
+    "r_nonpandemic_delta.violencia_familiar_sexual": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "Shift del r̂ EB pooled al excluir los años pandémicos (robustez §3.1). Reemplaza los +2.3pp/+1.6pp sin código versionado del párrafo COVID pre-reescritura.",
+      "round_mode": "half_up"
+    },
+    "r_pooled.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 3,
+      "note": "tasa de reporte r̂ pooled robo callejero (P victima denuncio). victim-level canónico.",
+      "round_mode": "half_up"
+    },
+    "rank_rho_obs_lat.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 3,
+      "note": "ρ Spearman obs-vs-lat del ranking distrital de robo (§5.4). El 0.995 previo era stale de una superficie anterior; el emit acopla la cifra a la figura que la dibuja.",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_countcount_lat.TOTAL": {
+      "canonical_variant": "counts",
+      "decimals": 2,
+      "note": "ρ conteo-homicidios vs conteo-denuncias, pooled distrito×año. Ilustra la huella de población compartida (NO concordancia espacial). El '≈0.79' previo del paper no reproducía; este es el valor del pipeline.",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_countcount_obs.TOTAL": {
+      "canonical_variant": "counts",
+      "decimals": 2,
+      "note": "ρ conteo-homicidios vs conteo-denuncias, pooled distrito×año. Ilustra la huella de población compartida (NO concordancia espacial). El '≈0.79' previo del paper no reproducía; este es el valor del pipeline.",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_lat.TOTAL": {
+      "canonical_variant": "rate",
+      "decimals": 2,
+      "note": "ρ Spearman del ancla SINADEF vs superficie latente, superficie total pooled (5 cats). canonical=rate (tasa-vs-tasa, post-B3); 'counts' = la versión confundida por población que se publicó (citarla exige variant-ok). Resultado NULO: el ancla no sostiene mitigación externa de circularidad (§6.3/§8).",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_lat.robo_hurto_callejero": {
+      "canonical_variant": "rate",
+      "decimals": 2,
+      "note": "ρ Spearman del ancla SINADEF vs superficie latente, robo (la categoría validada). canonical=rate (tasa-vs-tasa, post-B3); 'counts' = la versión confundida por población que se publicó (citarla exige variant-ok). Resultado NULO: el ancla no sostiene mitigación externa de circularidad (§6.3/§8).",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_obs.TOTAL": {
+      "canonical_variant": "rate",
+      "decimals": 2,
+      "note": "ρ Spearman del ancla SINADEF vs superficie observada, superficie total pooled (5 cats). canonical=rate (tasa-vs-tasa, post-B3); 'counts' = la versión confundida por población que se publicó (citarla exige variant-ok). Resultado NULO: el ancla no sostiene mitigación externa de circularidad (§6.3/§8).",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_obs.robo_hurto_callejero": {
+      "canonical_variant": "rate",
+      "decimals": 2,
+      "note": "ρ Spearman del ancla SINADEF vs superficie observada, robo (la categoría validada). canonical=rate (tasa-vs-tasa, post-B3); 'counts' = la versión confundida por población que se publicó (citarla exige variant-ok). Resultado NULO: el ancla no sostiene mitigación externa de circularidad (§6.3/§8).",
+      "round_mode": "half_up"
+    },
+    "sinadef_rho_pop_denuncias.TOTAL": {
+      "canonical_variant": "counts",
+      "decimals": 2,
+      "note": "ρ(población, conteo de denuncias) — el confundidor que fabricaba el falso +0.34 de B3. Se ancla para citarlo como diagnóstico.",
+      "round_mode": "half_up"
+    },
+    "sparsity_median_neff.lima": {
+      "canonical_variant": "pooled_dc",
+      "decimals": 0,
+      "note": "Mediana de n_eff por celda d×c pooled (5 cats companion, Lima). Reemplaza el 'median 7 (subtipo)/~14 (armonizado)' legacy de §4.3 que no reproducía.",
+      "round_mode": "half_up"
+    },
+    "sparsity_neff_max.lima": {
+      "canonical_variant": "pooled_dc",
+      "decimals": 0,
+      "note": "n_eff máximo por celda (cota del rango citado en §4.3).",
+      "round_mode": "half_up"
+    },
+    "sparsity_pct30.lima": {
+      "canonical_variant": "pooled_dc",
+      "decimals": 0,
+      "note": "% de celdas con n_eff≥30 — el input de la regla A/B (umbral 70%). Reemplaza el '1.9%' legacy.",
+      "round_mode": "half_up"
+    },
+    "surface.crime_latent": {
+      "canonical_variant": "sha256",
+      "decimals": 0,
+      "note": "ancla de digest del target STGNN H3 crime_latent_surface.parquet (victim); el sha256 vive en provenance.inputs_sha256. Byte-determinista. Re-emitir con scripts/pin_surface_canon.py tras regenerar la superficie.",
+      "round_mode": "floor"
+    },
+    "surface.crime_latent_hybrid": {
+      "canonical_variant": "sha256",
+      "decimals": 0,
+      "note": "ancla de digest de crime_latent_surface_hybrid.parquet (target hibrido geocoded, victim); sha256 en provenance.inputs_sha256.",
+      "round_mode": "floor"
+    },
+    "surface.latente_distrito": {
+      "canonical_variant": "sha256",
+      "decimals": 0,
+      "note": "ancla de digest del contrato distrital latente_distrito_categoria_anio.csv que alimenta build_latent_surface_h3; sha256 en provenance.inputs_sha256.",
+      "round_mode": "floor"
+    },
+    "trust_spearman_rho.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 2,
+      "note": "ρ(confianza P616A_1, multiplicador de superficie). El claim ORDINAL de §5.3 — lo único que se interpreta de la heterogeneidad.",
+      "round_mode": "half_up"
+    }
+  },
+  "schema_version": 1
+}

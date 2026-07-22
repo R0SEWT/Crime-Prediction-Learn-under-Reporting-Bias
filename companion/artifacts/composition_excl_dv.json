@@ -1,0 +1,61 @@
+{
+  "_generated_by": "scripts/build_composition_canon.py",
+  "_source": "data/datasets/silver/latent_surface/validacion.json",
+  "_note": "Reemplaza el artefacto huérfano que reportaba L1 0.9912→0.1092. Ese titular salía de sumar olas ENAPRES desiguales (robo=1 ola vs estafa=5) contra observado/latente pooled de 6 años. En base comparable el signo se invierte.",
+  "excluded_category": "violencia_familiar_sexual",
+  "cats": [
+    "extorsion",
+    "secuestro",
+    "robo_hurto_callejero",
+    "estafa"
+  ],
+  "labels": [
+    "Extortion",
+    "Kidnapping",
+    "Robbery and Mugging",
+    "Fraud and Scams"
+  ],
+  "waves_per_cat": {
+    "extorsion": 5,
+    "secuestro": 5,
+    "robo_hurto_callejero": 6,
+    "estafa": 5
+  },
+  "canonical_base": "annualised",
+  "shares": {
+    "observed": [
+      0.03775386149005915,
+      0.0033571294828754748,
+      0.8804355565635441,
+      0.07845345246352121
+    ],
+    "latent": [
+      0.025137589069826213,
+      0.002718206746105546,
+      0.39227036485439876,
+      0.5798738393296695
+    ],
+    "enapres_annualised": [
+      0.009672033907080395,
+      0.004987329498222324,
+      0.7592153485929031,
+      0.22612528800179416
+    ],
+    "enapres_raw": [
+      0.008397006642097067,
+      0.00432986891125788,
+      0.7909570689469654,
+      0.1963160554996796
+    ]
+  },
+  "l1": {
+    "annualised": {
+      "observed": 0.29860407110723963,
+      "latent": 0.7384282129812423
+    },
+    "raw": {
+      "observed": 0.2376706849290816,
+      "latent": 0.8005967325154381
+    }
+  }
+}

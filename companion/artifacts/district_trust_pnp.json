@@ -1,0 +1,227 @@
+{
+  "n_districts": 41,
+  "trust_var": "P616A_1",
+  "trust_years": [
+    2022,
+    2023
+  ],
+  "trust_score": "share FACTOR-weighted P616A_1 in {Suficiente,Bastante}",
+  "multiplier": "pooled Σlatente/Σobservado, robo_hurto_callejero",
+  "spearman_rho": -0.5716,
+  "spearman_p": 9e-05,
+  "trust_range": [
+    0.1095,
+    0.5302
+  ],
+  "multiplier_range": [
+    3.66,
+    5.45
+  ],
+  "per_district": {
+    "150101": {
+      "trust": 0.2548,
+      "n_resp": 437,
+      "robbery_multiplier": 4.86
+    },
+    "150102": {
+      "trust": 0.1095,
+      "n_resp": 126,
+      "robbery_multiplier": 4.48
+    },
+    "150103": {
+      "trust": 0.1591,
+      "n_resp": 896,
+      "robbery_multiplier": 5.17
+    },
+    "150104": {
+      "trust": 0.2346,
+      "n_resp": 21,
+      "robbery_multiplier": 4.37
+    },
+    "150105": {
+      "trust": 0.2366,
+      "n_resp": 178,
+      "robbery_multiplier": 4.2
+    },
+    "150106": {
+      "trust": 0.1916,
+      "n_resp": 543,
+      "robbery_multiplier": 4.63
+    },
+    "150107": {
+      "trust": 0.1139,
+      "n_resp": 36,
+      "robbery_multiplier": 4.18
+    },
+    "150108": {
+      "trust": 0.2497,
+      "n_resp": 493,
+      "robbery_multiplier": 4.26
+    },
+    "150109": {
+      "trust": 0.2783,
+      "n_resp": 38,
+      "robbery_multiplier": 4.51
+    },
+    "150110": {
+      "trust": 0.1887,
+      "n_resp": 808,
+      "robbery_multiplier": 4.23
+    },
+    "150111": {
+      "trust": 0.1944,
+      "n_resp": 275,
+      "robbery_multiplier": 5.16
+    },
+    "150112": {
+      "trust": 0.205,
+      "n_resp": 309,
+      "robbery_multiplier": 4.0
+    },
+    "150113": {
+      "trust": 0.4017,
+      "n_resp": 125,
+      "robbery_multiplier": 4.38
+    },
+    "150114": {
+      "trust": 0.3754,
+      "n_resp": 129,
+      "robbery_multiplier": 3.85
+    },
+    "150115": {
+      "trust": 0.2806,
+      "n_resp": 328,
+      "robbery_multiplier": 5.45
+    },
+    "150116": {
+      "trust": 0.2944,
+      "n_resp": 45,
+      "robbery_multiplier": 4.34
+    },
+    "150117": {
+      "trust": 0.2296,
+      "n_resp": 389,
+      "robbery_multiplier": 4.88
+    },
+    "150118": {
+      "trust": 0.1903,
+      "n_resp": 582,
+      "robbery_multiplier": 5.3
+    },
+    "150119": {
+      "trust": 0.2888,
+      "n_resp": 186,
+      "robbery_multiplier": 3.91
+    },
+    "150120": {
+      "trust": 0.3952,
+      "n_resp": 59,
+      "robbery_multiplier": 3.94
+    },
+    "150121": {
+      "trust": 0.49,
+      "n_resp": 82,
+      "robbery_multiplier": 3.86
+    },
+    "150122": {
+      "trust": 0.4288,
+      "n_resp": 114,
+      "robbery_multiplier": 3.66
+    },
+    "150123": {
+      "trust": 0.2197,
+      "n_resp": 246,
+      "robbery_multiplier": 5.23
+    },
+    "150124": {
+      "trust": 0.2324,
+      "n_resp": 49,
+      "robbery_multiplier": 4.67
+    },
+    "150125": {
+      "trust": 0.2169,
+      "n_resp": 587,
+      "robbery_multiplier": 4.97
+    },
+    "150126": {
+      "trust": 0.3298,
+      "n_resp": 34,
+      "robbery_multiplier": 4.34
+    },
+    "150128": {
+      "trust": 0.242,
+      "n_resp": 220,
+      "robbery_multiplier": 5.37
+    },
+    "150129": {
+      "trust": 0.5302,
+      "n_resp": 19,
+      "robbery_multiplier": 4.26
+    },
+    "150130": {
+      "trust": 0.4916,
+      "n_resp": 70,
+      "robbery_multiplier": 4.11
+    },
+    "150131": {
+      "trust": 0.4336,
+      "n_resp": 55,
+      "robbery_multiplier": 4.0
+    },
+    "150132": {
+      "trust": 0.1753,
+      "n_resp": 1641,
+      "robbery_multiplier": 5.25
+    },
+    "150133": {
+      "trust": 0.1494,
+      "n_resp": 459,
+      "robbery_multiplier": 5.4
+    },
+    "150134": {
+      "trust": 0.3232,
+      "n_resp": 29,
+      "robbery_multiplier": 4.19
+    },
+    "150135": {
+      "trust": 0.2294,
+      "n_resp": 840,
+      "robbery_multiplier": 4.11
+    },
+    "150136": {
+      "trust": 0.2881,
+      "n_resp": 153,
+      "robbery_multiplier": 4.33
+    },
+    "150137": {
+      "trust": 0.2185,
+      "n_resp": 217,
+      "robbery_multiplier": 4.91
+    },
+    "150139": {
+      "trust": 0.2048,
+      "n_resp": 65,
+      "robbery_multiplier": 4.63
+    },
+    "150140": {
+      "trust": 0.3512,
+      "n_resp": 373,
+      "robbery_multiplier": 3.95
+    },
+    "150141": {
+      "trust": 0.3667,
+      "n_resp": 155,
+      "robbery_multiplier": 3.8
+    },
+    "150142": {
+      "trust": 0.1672,
+      "n_resp": 568,
+      "robbery_multiplier": 4.67
+    },
+    "150143": {
+      "trust": 0.148,
+      "n_resp": 607,
+      "robbery_multiplier": 4.44
+    }
+  }
+}

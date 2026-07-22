@@ -1,0 +1,98 @@
+{
+  "scales": [
+    {
+      "k": 43,
+      "reps": 1,
+      "l1_obs_mean": 0.3277952983982828,
+      "l1_lat_mean": 0.6251209908285198,
+      "l1_obs_sd": 0.0,
+      "l1_lat_sd": 0.0,
+      "rho_obs": 0.9420114768951978,
+      "rho_lat": 0.9497130776200544,
+      "frac_lat_better": 0.0
+    },
+    {
+      "k": 24,
+      "reps": 200,
+      "l1_obs_mean": 0.32181038758467606,
+      "l1_lat_mean": 0.6476463891037045,
+      "l1_obs_sd": 0.001758449133512916,
+      "l1_lat_sd": 0.009472356273442478,
+      "rho_obs": 0.9105434782608693,
+      "rho_lat": 0.9400260869565216,
+      "frac_lat_better": 0.0
+    },
+    {
+      "k": 12,
+      "reps": 200,
+      "l1_obs_mean": 0.31694325485443486,
+      "l1_lat_mean": 0.667337227300981,
+      "l1_obs_sd": 0.0019482371466736752,
+      "l1_lat_sd": 0.007935985450644795,
+      "rho_obs": 0.8695104895104896,
+      "rho_lat": 0.9111888111888112,
+      "frac_lat_better": 0.0
+    },
+    {
+      "k": 6,
+      "reps": 200,
+      "l1_obs_mean": 0.31455523026128335,
+      "l1_lat_mean": 0.6758069140530338,
+      "l1_obs_sd": 0.0013763500764460731,
+      "l1_lat_sd": 0.007045811903940899,
+      "rho_obs": null,
+      "rho_lat": null,
+      "frac_lat_better": 0.0
+    },
+    {
+      "k": 3,
+      "reps": 200,
+      "l1_obs_mean": 0.31309547475390925,
+      "l1_lat_mean": 0.6819948831089853,
+      "l1_obs_sd": 0.0008332854838586495,
+      "l1_lat_sd": 0.004681644871291525,
+      "rho_obs": null,
+      "rho_lat": null,
+      "frac_lat_better": 0.0
+    },
+    {
+      "k": 1,
+      "reps": 1,
+      "l1_obs_mean": 0.3123426486010257,
+      "l1_lat_mean": 0.6860025994614587,
+      "l1_obs_sd": 0.0,
+      "l1_lat_sd": 0.0,
+      "rho_obs": null,
+      "rho_lat": null,
+      "frac_lat_better": 0.0
+    }
+  ],
+  "magnitude_factor": {
+    "extorsion": 6.9144990069173335,
+    "secuestro": 8.408685286103543,
+    "violencia_familiar_sexual": 11.088795528909946,
+    "robo_hurto_callejero": 4.627059063477023,
+    "estafa": 76.54139633953929
+  },
+  "reps": 200,
+  "seed": 0,
+  "comp_cats": [
+    "extorsion",
+    "secuestro",
+    "robo_hurto_callejero",
+    "estafa"
+  ],
+  "excluded_cat": "violencia_familiar_sexual",
+  "benchmark": "ENAPRES anualizado (víctimas / nº olas por categoría)",
+  "spatial_metric": "Spearman zona-nivel, robo solo",
+  "waves_per_cat": {
+    "estafa": 5,
+    "robo_hurto_callejero": 6,
+    "robo_negocio": 6,
+    "secuestro": 5,
+    "violencia_familiar_sexual": 5,
+    "robo_vehiculo": 6,
+    "amenazas": 5,
+    "extorsion": 5
+  }
+}
