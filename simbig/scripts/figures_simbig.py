@@ -199,8 +199,8 @@ def fig_degradation() -> Path:
     # the True/Measurable curves converge at 83.4% by construction, so their
     # end labels need opposite vertical offsets to avoid collision
     series = [
-        ("real", "real_sd", "True skill (vs full oracle)", C_BLUE, "-", "o", 8),
-        ("medible", "medible_sd", "Measurable skill (vs degraded oracle)", C_VERMILLION, "--", "s", -9),
+        ("real", "real_sd", "Full-oracle skill", C_BLUE, "-", "o", 8),
+        ("medible", "medible_sd", "Degraded-oracle skill", C_VERMILLION, "--", "s", -9),
         ("persist", "persist_sd", "Persistence baseline", C_GREEN, ":", "^", 0),
     ]
     for col, sd, label, color, ls, marker, dy in series:

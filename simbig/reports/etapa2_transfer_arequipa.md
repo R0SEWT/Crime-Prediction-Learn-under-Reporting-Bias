@@ -1,4 +1,4 @@
-# Transferencia espacial Lima → Arequipa (slr-211)
+# Transferencia espacial Lima → Arequipa (slr-211/slr-vkj)
 
 **Protocolo:** modelo HGB (params del ladder) con el bloque tabular TRANSFERIBLE (18 features: WorldPop, manzana censal INEI, OSM sin features Lima-específicas). Train Lima 2019-2022 → test **Arequipa 2023** vs oráculo geocodificado propio. Spearman intra-distrital macro (distritos con ≥5 celdas).
 
@@ -20,6 +20,12 @@ Distritos evaluables: 21. Celdas test: 1307.
 | transfer − prior pob. | +0.0493 [+0.0057, +0.0963] | SÍ |
 | transfer − persistencia | -0.0100 [-0.0741, +0.0565] | no |
 | local − transfer | +0.0667 [+0.0290, +0.1064] | SÍ |
+
+## Categoría rara: secuestro (capture@10% + CI del delta ρ)
+
+- Eventos secuestro (test 2023): **77** en 1308 celdas; distritos evaluables para ρ (≥5 celdas, ≥2 valores): **11**.
+- ρ intra-distrital: transfer 0.426 vs local 0.352; delta transfer−local **+0.075 [-0.016, +0.187]** (¿CI excluye 0? no (cruza 0)).
+- capture@10% (share de eventos en el top-decil de celdas predichas): transfer **0.948** vs local **0.857** vs persistencia 0.325.
 
 Referencias Lima (mismo protocolo): bloque completo M4c 0.464; prior histórico 0.394; per cápita 0.349.
 

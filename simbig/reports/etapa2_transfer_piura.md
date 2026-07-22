@@ -21,4 +21,10 @@ Distritos evaluables: 6. Celdas test: 1056.
 | transfer − persistencia | +0.0123 [-0.0372, +0.0665] | no |
 | local − transfer | +0.0095 [-0.0218, +0.0451] | no |
 
+## Categoría rara: secuestro (capture@10% + CI del delta ρ)
+
+- Eventos secuestro (test 2023): **24** en 1057 celdas; distritos evaluables para ρ (≥5 celdas, ≥2 valores): **5**.
+- ρ intra-distrital: transfer 0.270 vs local 0.227; delta transfer−local **+0.043 [-0.047, +0.122]** (¿CI excluye 0? no (cruza 0)).
+- capture@10% (share de eventos en el top-decil de celdas predichas): transfer **0.875** vs local **0.875** vs persistencia 0.417.
+
 Referencias Lima (mismo protocolo): bloque completo M4c 0.464; prior histórico 0.394; per cápita 0.349.

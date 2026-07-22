@@ -1,56 +1,80 @@
-# Factorial label × fusión, multi-seed (slr-muw) — el veredicto
+# Factorial label × fusión, multi-seed (slr-muw / slr-2rry) — el veredicto
 
-**Fecha:** 2026-07-03 · **Diseño:** {circular, híbrido-M1} × {concat, attention}
-× 3 seeds (42/7/123; split distrital fijo) + placebo(attention) × 3.
-STGNN 150 épocas CPU, eval Spearman intra-distrital macro vs oráculo
-geocodificado 2023. Datos crudos: `data/silver/predictions/
-{label_dose_response_multiseed,factorial_label_fusion}.json`.
+**Fecha:** 2026-07-13 (v4, 20-seed) · **Diseño:** {circular, honest(M=1), placebo}
+× {concat, attention} × **20 seeds** (split distrital fijo). STGNN 150 épocas CPU,
+eval Spearman intra-distrital macro vs oráculo geocodificado 2023. Contrastes
+pareados por seed, CI95 bootstrap (B=5000). Datos crudos:
+`data/silver/predictions/factorial_label_fusion{,_contrasts}.json`.
 
-## Resultados (media ± sd de 3 seeds)
+> **Cambio material vs v3 (3 seeds).** El factorial de 3 seeds **sobreestimó** el
+> efecto de fusión ~2-3×. Con 20 seeds el 2×3 está completo (incluye la celda
+> `placebo×concat` que faltaba) y los contrastes llevan CI pareado. Los 3 seeds
+> originales (42/7/123) se reproducen exactos; el resto regresa las medias a la
+> media. **La tesis central se refuerza; los claims positivos de fusión bajan.**
+
+## Resultados (media ± sd de 20 seeds; nan-aware)
 
 | celda | macro | secuestro | robo |
 |:--|:--|:--|:--|
-| circular × concat | 0.201 ± 0.017 | −0.029 ± 0.068 | 0.367 ± 0.001 |
-| circular × attention | 0.247 ± 0.013 | +0.107 ± 0.038 | 0.381 ± 0.026 |
-| M1 × concat | 0.190 ± 0.011 | −0.094 ± 0.046 | 0.369 ± 0.002 |
-| M1 × attention | **0.264 ± 0.013** | **+0.165 ± 0.044** | 0.387 ± 0.007 |
-| placebo × attention | 0.244 ± 0.029 | +0.140 ± 0.075 | 0.382 ± 0.030 |
+| circular × concat | 0.227 ± 0.049 | +0.120 ± 0.257 | 0.369 ± 0.004 |
+| circular × attention | **0.256 ± 0.025** | +0.167 ± 0.049 | 0.381 ± 0.028 |
+| honest × concat | 0.231 ± 0.051 | +0.135 ± 0.260 | 0.369 ± 0.003 |
+| honest × attention | 0.250 ± 0.023 | +0.147 ± 0.060 | 0.377 ± 0.025 |
+| placebo × concat | 0.230 ± 0.047 | +0.128 ± 0.248 | 0.369 ± 0.003 |
+| placebo × attention | 0.254 ± 0.023 | +0.165 ± 0.050 | 0.379 ± 0.032 |
 
-Barrido M complementario (attention): M=10 0.252±0.028, M=50 0.253±0.021.
+(placebo×concat secuestro: 19/20 seeds finitos — 1 seed colapsó la cabeza rara a
+constante → ρ indefinido; se agrega nan-aware.)
 
-## Veredicto por efecto
+## Contrastes pareados por seed (macro ρ, CI95)
 
-1. **Fusión attention: EFECTO REAL.** +0.046 sobre concat con label circular y
-   +0.074 con label M1 (~3-5 sd). Es el único efecto DL-positivo que sobrevive
-   el rigor multi-seed.
-2. **El "rescate de secuestro" es 100% de la atención, no del label.** Concat
-   produce ρ negativo en secuestro con cualquier label; attention lo vuelve
-   positivo con cualquier label — *incluido el placebo de patrón permutado*.
-   La fusión cross-modal estabiliza las cabezas de categorías raras vía la
-   representación, independientemente del target.
-3. **Intervención sobre el label: RESULTADO NEGATIVO.** M1 ≈ circular ≈
-   placebo dentro de ruido (Δ máx +0.017, ~1.3 sd). El STGNN es insensible al
-   patrón intra-distrital de su target: con λ_prior = 0.5 y la loss de
-   consistencia distrital, el gradiente del patrón fino apenas influye. La
-   honestidad del label es necesaria para *interpretar* (sin ella, ρ alto vs
-   target = circularidad) pero no suficiente para *mejorar* esta arquitectura.
-4. **El techo DL queda en ~0.26 ± 0.03** en la mejor configuración — muy por
+**Fusión (attention − concat):**
+- circular: **+0.029 [+0.006, +0.052] SIG**
+- honest:   +0.019 [−0.009, +0.044] **ns**  ← v3 reportaba +0.074 "3-5 sd" (ruido de 3 seeds)
+- placebo:  **+0.024 [+0.004, +0.045] SIG**  (celda nueva)
+- **POOLED (60 pares): +0.024 [+0.010, +0.037] SIG**
+
+**Label (bajo attention) — debe ser ~0:**
+- honest − circular: −0.006 [−0.019, +0.005] ns
+- honest − placebo:  −0.004 [−0.017, +0.009] ns
+- placebo − circular: −0.002 [−0.014, +0.010] ns
+
+**Interacción label×fusión:** (honest attn−concat) − (placebo attn−concat)
+= −0.006 [−0.020, +0.009] **ns**.
+
+## Veredicto por efecto (20 seeds)
+
+1. **Intervención sobre el label: RESULTADO NEGATIVO, reforzado.** honest ≈
+   circular ≈ placebo bajo attention (los tres contrastes cruzan 0, |Δ|≤0.006;
+   interacción nula). Con λ_prior=0.5 y la loss de consistencia distrital —y
+   dado que los tres labels comparten los MISMOS totales distritales por
+   construcción, así que `L_district` es idéntico entre ellos— el STGNN es
+   insensible al patrón intra-distrital del target. Es el hallazgo robusto.
+2. **Fusión attention: efecto REAL pero PEQUEÑO.** +0.024 macro pooled (sig),
+   no el +0.05–0.07 del estimado de 3 seeds. Significativo pooled y bajo
+   circular/placebo; NO individualmente bajo honest. Sigue siendo el único
+   efecto DL-positivo, pero su magnitud honesta es ~+0.02–0.03.
+3. **Secuestro: es CONFIABILIDAD, no ganancia de media.** concat da ρ de
+   secuestro con sd ~0.25 y **negativo en 9/20 seeds** (moneda al aire);
+   attention lo deja **positivo en 20/20 seeds** (ρ ~0.15, sd ~0.05). El delta
+   de media attn−concat NO es significativo (los CIs cruzan 0 porque la media
+   de concat no es baja, solo inestable). El claim honesto: attention hace la
+   cabeza rara *fiable*, no *más alta en promedio*.
+4. **Techo DL ~0.25–0.26** (mejor celda circular×attention 0.256) — muy por
    debajo del prior histórico (0.394) y del techo tabular (0.464). La
-   conclusión central se refuerza: el déficit del DL no es reparable por el
-   label; es de arquitectura/régimen de datos.
+   conclusión central se refuerza: el déficit DL no lo repara el label.
 
-## Corrección al registro
+## Implicación para el manuscrito SIMBig (pendiente decisión de autor)
 
-La tabla single-seed de `etapa2_hybrid_target.md` (circular-concat 0.197 →
-híbrido-attention 0.276, leído como "sinergia label×fusión") queda SUPERSEDIDA:
-el contraste mezclaba hardware (Lightning vs local) y seeds individuales. El
-componente label de esa sinergia era ruido; el componente fusión era real.
-Los claims derivados en ch5 §Q2b y design/columna-vertebral se corrigen en
-este mismo commit.
+Abstract y §5.2 llevan los números de 3 seeds (+0.046/+0.074, "3-5 sd",
+"rescata categorías raras"). Requieren:
+- Fusión: +0.05–0.07 → **+0.024 pooled** (sig; ns bajo honest solo).
+- Secuestro: "rescate" (media) → **fiabilidad** (0/20 vs 9/20 seeds negativos).
+- Label null e interacción nula: se mantienen y se refuerzan (ahora 20 seeds,
+  con la celda placebo×concat que cierra el 2×3).
 
 ## Reproducir
 
 ```bash
-.venv-embed/bin/python scripts/exp_dose_response_multiseed.py
-.venv-embed/bin/python scripts/exp_factorial_label_fusion.py
+.venv-embed/bin/python scripts/exp_factorial_label_fusion.py --seeds 20
 ```

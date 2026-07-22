@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SURFACE_FILE = ROOT / "data/silver/crime_latent_surface.parquet"
 ORACLE_FILE = ROOT / "data/silver/h3_features/h3_observed_geocoded.parquet"
 VALIDATION_FILE = ROOT / "data/datasets/silver/latent_surface/validacion.json"
+COMPOSITION_FILE = ROOT / "data/silver/analysis/composition_excl_dv.json"
 OUT_REPORT = ROOT / "analysis/etapa2_q1_observado_vs_latente.md"
 OUT_METRICS = ROOT / "data/silver/predictions/q1_observed_vs_latent_metrics.csv"
 
@@ -175,19 +176,33 @@ def write_report(panel: pd.DataFrame, metrics: pd.DataFrame, macro: pd.DataFrame
     validation_note = ""
     if VALIDATION_FILE.exists():
         validation = json.loads(VALIDATION_FILE.read_text(encoding="utf-8"))
-        l1_obs = validation["composicion_L1"]["observado"]
-        l1_lat = validation["composicion_L1"]["latente"]
+        # L1 sale del artefacto canonico (build_composition_canon.py), no de validacion.json:
+        # requiere excluir violencia familiar y renormalizar sobre las 4 categorias comparables.
+        # La clave vieja 'composicion_L1' traia el titular falso 0.99->0.11 (B1, slr-x50g).
         rho_obs = validation["espacial_total_sin_estafa"]["rho_obs"]
         rho_lat = validation["espacial_total_sin_estafa"]["rho_lat"]
-        validation_note = "\n".join([
-            "## Validacion Etapa 1 contra ENAPRES",
-            "",
-            f"- Composicion L1 vs ENAPRES: observado={l1_obs:.3f}, latente={l1_lat:.3f}.",
+        lines = ["## Validacion Etapa 1 contra ENAPRES", ""]
+        if COMPOSITION_FILE.exists():
+            comp_canon = json.loads(COMPOSITION_FILE.read_text(encoding="utf-8"))
+            base = comp_canon["canonical_base"]
+            l1 = comp_canon["l1"][base]
+            lines.append(
+                f"- Composicion L1 vs ENAPRES ({base}, 4 cats excl. violencia familiar): "
+                f"observado={l1['observed']:.3f}, latente={l1['latent']:.3f} "
+                f"({100 * (l1['latent'] / l1['observed'] - 1):+.0f}%)."
+            )
+        else:
+            lines.append("- Composicion L1: falta composition_excl_dv.json "
+                         "(correr scripts/build_composition_canon.py).")
+        lines += [
             f"- Ranking distrital total sin estafa: observado rho={rho_obs:.3f}, latente rho={rho_lat:.3f}.",
             "",
-            "Lectura: el de-sesgo mejora claramente composicion/magnitud, pero no mejora el ranking espacial distrital.",
+            "Lectura: el de-sesgo corrige MAGNITUD, pero ALEJA la composicion por tipo del "
+            "benchmark de encuesta (la estafa se sobre-corrige por mismatch de universo) y "
+            "tampoco mejora el ranking espacial distrital.",
             "",
-        ])
+        ]
+        validation_note = "\n".join(lines)
 
     obs_intra = float(primary_macro[primary_macro["predictor"] == "observado"]["macro_intra_spearman"].iloc[0])
     lat_intra = float(primary_macro[primary_macro["predictor"] == "latente"]["macro_intra_spearman"].iloc[0])

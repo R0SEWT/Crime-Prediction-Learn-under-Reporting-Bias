@@ -475,6 +475,7 @@ def build_model_and_module(data: dict, args: argparse.Namespace):
             self.model = model
             self.args = args
             self.lambda_prior = args.lambda_prior
+            self.lambda_district = args.lambda_district
 
             # Register buffers (GPU-transferable)
             import torch as th
@@ -570,7 +571,7 @@ def build_model_and_module(data: dict, args: argparse.Namespace):
                 if n_d > 0:
                     l_dist = l_dist / n_d
 
-                loss_t = l_dist + self.lambda_prior * l_prior
+                loss_t = self.lambda_district * l_dist + self.lambda_prior * l_prior
                 total_loss = total_loss + loss_t
                 n_terms += 1
 
@@ -658,6 +659,7 @@ def train(data: dict, args: argparse.Namespace):
             "lr": args.lr,
             "hidden": args.hidden,
             "lambda_prior": args.lambda_prior,
+            "lambda_district": args.lambda_district,
             "loss_scale_floor": args.loss_scale_floor,
             "train_years": ",".join(map(str, TRAIN_YEARS)),
             "test_year": TEST_YEAR,
@@ -801,7 +803,7 @@ def write_report(module, df_pred: pd.DataFrame, args: argparse.Namespace) -> lis
 
 {caveat}
 
-**Target:** {target_mode}  **Fusion:** {fusion_mode}  **Epochs:** {args.epochs}  **Hidden:** {args.hidden}  **λ_prior:** {args.lambda_prior}
+**Target:** {target_mode}  **Fusion:** {fusion_mode}  **Epochs:** {args.epochs}  **Hidden:** {args.hidden}  **λ_prior:** {args.lambda_prior}  **λ_district:** {args.lambda_district}
 **Architecture:** independent per-category heads
 **Loss scale floor:** {args.loss_scale_floor}
 **Train:** {TRAIN_YEARS}  **Test:** {TEST_YEAR}
@@ -819,7 +821,7 @@ def write_report(module, df_pred: pd.DataFrame, args: argparse.Namespace) -> lis
 ## Loss
 
 ```
-L = L_district + {args.lambda_prior} × L_prior
+L = {args.lambda_district} × L_district + {args.lambda_prior} × L_prior
 L_district = mean_cat ((Σ_h∈d ŷ_h,c − y_d,c) / (scale_c × sqrt(|d|)))²
 L_prior    = mean_cat MSE((ŷ_c − prior_c) / scale_c)
 ```
@@ -852,6 +854,8 @@ def parse_args() -> argparse.Namespace:
                    help="Fusion cross-modal: 'concat' (baseline) o 'attention' "
                         "(atencion multi-cabeza sobre tokens de modalidad SV/estatico/temporal)")
     p.add_argument("--lambda-prior", dest="lambda_prior", type=float, default=0.5)
+    p.add_argument("--lambda-district", dest="lambda_district", type=float, default=1.0,
+                   help="Peso de L_district; 1.0 = comportamiento canónico, 0 = ablación (EXP-2)")
     p.add_argument("--loss-scale-floor", type=float, default=1.0,
                    help="Minimum per-category target scale used to normalize loss")
     p.add_argument("--fast-dev-run", dest="fast_dev_run", action="store_true",

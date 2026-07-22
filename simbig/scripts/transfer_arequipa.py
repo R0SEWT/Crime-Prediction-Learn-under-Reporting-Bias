@@ -354,11 +354,60 @@ def run_eval() -> None:
         names = {"pred_transfer": "transfer", "pred_local": "local",
                  "pred_persist": "persistencia", "pred_pop": "prior pob."}
         lines.append(f"| {names[lb]} − {names[la]} | {d:+.4f} [{dl:+.4f}, {dh:+.4f}] | {sig} |")
+
+    # ── categoría rara (secuestro): capture@10% + delta ρ pareado + n eventos ──
+    # §4.1 promete capture@10% para categorías raras; el claim de transferencia
+    # en secuestro se apoyaba en ρ puntual (frágil con muchos ceros y pocos
+    # distritos). Reportamos ambos + el n para decidir la redacción honesta.
+    RARE = "secuestro"
+    te_rare = allte[allte["crime_cat"] == RARE]
+    tot_events = float(te_rare["target"].sum())
+
+    def capture10(pred_col: str) -> float:
+        if tot_events <= 0 or len(te_rare) == 0:
+            return float("nan")
+        k = max(1, int(np.ceil(len(te_rare) * 0.10)))
+        return float(te_rare.nlargest(k, pred_col)["target"].sum() / tot_events)
+
+    rt = stats["pred_transfer"][stats["pred_transfer"]["crime_cat"] == RARE]
+    rl = stats["pred_local"][stats["pred_local"]["crime_cat"] == RARE]
+    n_distr_rare = int(rt["ubigeo"].nunique())
+    v = (rt.merge(rl, on=["crime_cat", "ubigeo"], suffixes=("_t", "_l"))
+         [["rho_l", "rho_t"]].dropna().to_numpy())
+    if len(v) >= 2:
+        idxs = rng.integers(0, len(v), size=(B, len(v)))
+        draws2 = v[idxs, 1].mean(axis=1) - v[idxs, 0].mean(axis=1)
+        d_rho = float(v[:, 1].mean() - v[:, 0].mean())
+        d_lo, d_hi = float(np.percentile(draws2, 2.5)), float(np.percentile(draws2, 97.5))
+        ci_txt, sig_txt = f"{d_rho:+.3f} [{d_lo:+.3f}, {d_hi:+.3f}]", \
+            ("SÍ" if (d_lo > 0 or d_hi < 0) else "no (cruza 0)")
+    else:
+        ci_txt, sig_txt = f"n/d (solo {len(v)} distrito(s) evaluable(s) para ρ)", "n/d"
+
+    lines += [
+        "", f"## Categoría rara: {RARE} (capture@10% + CI del delta ρ)", "",
+        f"- Eventos {RARE} (test {TEST_YEAR}): **{tot_events:.0f}** en {len(te_rare)} celdas; "
+        f"distritos evaluables para ρ (≥{MIN_CELLS} celdas, ≥2 valores): **{n_distr_rare}**.",
+        f"- ρ intra-distrital: transfer {rt.rho.mean():.3f} vs local {rl.rho.mean():.3f}; "
+        f"delta transfer−local **{ci_txt}** (¿CI excluye 0? {sig_txt}).",
+        f"- capture@10% (share de eventos en el top-decil de celdas predichas): "
+        f"transfer **{capture10('pred_transfer'):.3f}** vs local **{capture10('pred_local'):.3f}** "
+        f"vs persistencia {capture10('pred_persist'):.3f}.",
+    ]
     lines += ["", "Referencias Lima (mismo protocolo): bloque completo M4c 0.464; "
               "prior histórico 0.394; per cápita 0.349."]
-    REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # preservar la prosa manual "## Lectura" (y lo que siga) entre
+    # regeneraciones: run_eval solo genera tabla/deltas; la interpretación se
+    # edita a mano y no debe perderse al recomputar las métricas.
+    tail = ""
+    if REPORT_MD.exists():
+        prev = REPORT_MD.read_text(encoding="utf-8")
+        if "\n## Lectura" in prev:
+            tail = "\n" + prev[prev.index("\n## Lectura") + 1:].rstrip() + "\n"
+    REPORT_MD.write_text("\n".join(lines) + "\n" + tail, encoding="utf-8")
     print("\n".join(lines))
-    print(f"\nGuardado → {REPORT_MD}")
+    print(f"\nGuardado → {REPORT_MD}"
+          + (" (+ sección Lectura preservada)" if tail else ""))
 
 
 def main() -> int:
