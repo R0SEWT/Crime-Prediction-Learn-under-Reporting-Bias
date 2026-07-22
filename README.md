@@ -3,7 +3,8 @@
 **Papers:**
 
 1. **S1 — SLR:** *Deep Learning and Spatiotemporal Modelling for Urban Crime Prediction: A Systematic Review of Architectures, Heterogeneous Data Fusion, and the Dark Figure Gap (2023–mid 2026)*
-2. **SIMBig 2026 (empirical):** *What Can Fine-Grained Crime Prediction Learn under Reporting Bias? Label Circularity, Cross-Modal Fusion, and Cross-City Transfer in Peru* — see [`simbig/`](simbig/) for the full experimental package (manuscript → script/report/metrics map).
+2. **Companion (Bayesian de-biasing, preprint):** *Estimating Latent Urban Crime Risk Under-Reporting Bias: A Bayesian Small Area Approach for Lima Metropolitana* — see [`companion/`](companion/) for the replication package (scripts, crosswalk, derived artefacts, canonical-numbers registry).
+3. **SIMBig 2026 (empirical):** *What Can Fine-Grained Crime Prediction Learn under Reporting Bias? Label Circularity, Cross-Modal Fusion, and Cross-City Transfer in Peru* — see [`simbig/`](simbig/) for the full experimental package (manuscript → script/report/metrics map).
 
 **Authors:** Rody Sebastian Vilchez Marin · Christian Aaron Velasquez Borasino  
 **Affiliation:** Universidad Peruana de Ciencias Aplicadas (UPC), Lima, Peru
