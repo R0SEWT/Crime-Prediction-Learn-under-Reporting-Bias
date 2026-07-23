@@ -1,6 +1,6 @@
 # Companion paper — replication package
 
-**Paper:** *Estimating Latent Urban Crime Risk Under-Reporting Bias: A Bayesian Small Area
+**Paper:** *Estimating Latent Urban Crime Risk under Reporting Bias: A Bayesian Small Area
 Approach for Lima Metropolitana* (preprint; Vilchez Marin & Velasquez Borasino, UPC).
 
 This directory is the public replication repository referenced in the paper's
