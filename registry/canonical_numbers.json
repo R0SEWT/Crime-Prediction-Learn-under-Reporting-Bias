@@ -1,0 +1,735 @@
+{
+  "entries": {
+    "geo_degradation.feat_wins_pct_min.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "100",
+      "estimator": "min sobre celdas (mecanismo, nivel) de la fracción de seeds feat_gana",
+      "family": "geo_degradation.feat_wins_pct_min",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "% de seeds con ρ(features) > ρ(persistencia), mínimo sobre niveles y mecanismos",
+      "value": 100.0,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_medible_10.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.293",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.1",
+      "family": "geo_degradation.selective_medible_10",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.292736,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_medible_25.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.354",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.249",
+      "family": "geo_degradation.selective_medible_25",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.353996,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_medible_50.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.395",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.5",
+      "family": "geo_degradation.selective_medible_50",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.394984,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_persist_10.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.223",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.1",
+      "family": "geo_degradation.selective_persist_10",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.223401,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_persist_25.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.270",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.249",
+      "family": "geo_degradation.selective_persist_25",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.269511,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.selective_persist_50.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.332",
+      "estimator": "M4c HGB reentrenado sobre target degradado, selectivo, nivel 0.5",
+      "family": "geo_degradation.selective_persist_50",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.331817,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_medible_10.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.324",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.1",
+      "family": "geo_degradation.uniform_medible_10",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.323915,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_medible_25.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.386",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.249",
+      "family": "geo_degradation.uniform_medible_25",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.385502,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_medible_50.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.432",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.5",
+      "family": "geo_degradation.uniform_medible_50",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.432407,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_medible_83.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.464",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.834",
+      "family": "geo_degradation.uniform_medible_83",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.46359,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_persist_10.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.216",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.1",
+      "family": "geo_degradation.uniform_persist_10",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.216308,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_persist_25.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.310",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.249",
+      "family": "geo_degradation.uniform_persist_25",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.310291,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_persist_50.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.360",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.5",
+      "family": "geo_degradation.uniform_persist_50",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.360232,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_persist_83.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.401",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.834",
+      "family": "geo_degradation.uniform_persist_83",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.400548,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_real_10.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.429",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.1",
+      "family": "geo_degradation.uniform_real_10",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.428739,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_real_25.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.447",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.249",
+      "family": "geo_degradation.uniform_real_25",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.447465,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_degradation.uniform_real_50.m4c_hgb_10seeds": {
+      "canonical": true,
+      "display": "0.458",
+      "estimator": "M4c HGB reentrenado sobre target degradado, uniforme, nivel 0.5",
+      "family": "geo_degradation.uniform_real_50",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:16-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "macro ρ intra-distrital (media sobre seeds)",
+      "value": 0.458072,
+      "variant": "m4c_hgb_10seeds"
+    },
+    "geo_failure.nocoord_pct.extorsion.lima_2019_2023": {
+      "canonical": true,
+      "display": "49.5",
+      "estimator": "media por categoría, universo limpio 2019-2023",
+      "family": "geo_failure.nocoord_pct.extorsion",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "% de denuncias sin coordenada capturada",
+      "value": 49.501271,
+      "variant": "lima_2019_2023"
+    },
+    "geo_failure.nocoord_pct.violencia_familiar_sexual.lima_2019_2023": {
+      "canonical": true,
+      "display": "9.6",
+      "estimator": "media por categoría, universo limpio 2019-2023",
+      "family": "geo_failure.nocoord_pct.violencia_familiar_sexual",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "% de denuncias sin coordenada capturada",
+      "value": 9.594234,
+      "variant": "lima_2019_2023"
+    },
+    "geo_failure.rho_centroid_pov.lima_2019_2023": {
+      "canonical": true,
+      "display": "0.64",
+      "estimator": "spearmanr sobre tasas distritales del universo limpio 2019-2023",
+      "family": "geo_failure.rho_centroid_pov",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "Spearman ρ entre tasa distrital y pobreza INEI 2018 (distritos n≥500)",
+      "value": 0.640525,
+      "variant": "lima_2019_2023"
+    },
+    "geo_failure.rho_clean_pov.lima_2019_2023": {
+      "canonical": true,
+      "display": "-0.60",
+      "estimator": "spearmanr sobre tasas distritales del universo limpio 2019-2023",
+      "family": "geo_failure.rho_clean_pov",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-10-09T14:08:15-05:00",
+        "git_commit": "a16719b",
+        "inputs_sha256": {
+          "data/raw/inei/pobreza_distrital_2018.csv": "e1b89c933ff8a2eeca3263de7fe031aa22e3cbb499976ced2a475818699cc06f",
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf",
+          "external/LIMA.parquet": "15ed53f29d9a489d4fa614899b2f2e1c0fcb51d0e6860c43c5012a3d5831dd63"
+        },
+        "script": "scripts/eval_selective_degradation.py",
+        "script_sha256": "f0e98574e2cb698744512799af1848df7c04b9c3383273e81788e0732a9b571e"
+      },
+      "unit": "Spearman ρ entre tasa distrital y pobreza INEI 2018 (distritos n≥500)",
+      "value": -0.596623,
+      "variant": "lima_2019_2023"
+    },
+    "ladder_mult.manzana_sim_hi.shared_boot": {
+      "canonical": true,
+      "display": "0.107",
+      "estimator": "d ± c·se con c max-t, B=20000, seed 20260731",
+      "family": "ladder_mult.manzana_sim_hi",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-31T07:49:14-05:00",
+        "git_commit": "3f83495",
+        "inputs_sha256": {
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf"
+        },
+        "script": "scripts/exp_ladder_multiplicity.py",
+        "script_sha256": "1aebca72c76f57f099089e4f573bb0077edd285d034351872b3c04aa4375da25"
+      },
+      "unit": "límite superior del CI SIMULTÁNEO 95% del escalón de manzana",
+      "value": 0.107322,
+      "variant": "shared_boot"
+    },
+    "ladder_mult.manzana_sim_lo.shared_boot": {
+      "canonical": true,
+      "display": "0.042",
+      "estimator": "d ± c·se con c max-t, B=20000, seed 20260731",
+      "family": "ladder_mult.manzana_sim_lo",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-31T07:49:14-05:00",
+        "git_commit": "3f83495",
+        "inputs_sha256": {
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf"
+        },
+        "script": "scripts/exp_ladder_multiplicity.py",
+        "script_sha256": "1aebca72c76f57f099089e4f573bb0077edd285d034351872b3c04aa4375da25"
+      },
+      "unit": "límite inferior del CI SIMULTÁNEO 95% del escalón de manzana",
+      "value": 0.042475,
+      "variant": "shared_boot"
+    },
+    "ladder_mult.ocho_fuentes_p_wy.shared_boot": {
+      "canonical": true,
+      "display": "0.50",
+      "estimator": "max-t step-down, familia primaria de 3, B=20000, seed 20260731",
+      "family": "ladder_mult.ocho_fuentes_p_wy",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-31T07:49:14-05:00",
+        "git_commit": "3f83495",
+        "inputs_sha256": {
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf"
+        },
+        "script": "scripts/exp_ladder_multiplicity.py",
+        "script_sha256": "1aebca72c76f57f099089e4f573bb0077edd285d034351872b3c04aa4375da25"
+      },
+      "unit": "p ajustado Westfall-Young del contraste H3 ocho fuentes (conjunto)",
+      "value": 0.501725,
+      "variant": "shared_boot"
+    },
+    "ladder_mult.osm_p_wy.shared_boot": {
+      "canonical": true,
+      "display": "0.73",
+      "estimator": "max-t step-down, familia primaria de 3, B=20000, seed 20260731",
+      "family": "ladder_mult.osm_p_wy",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-31T07:49:14-05:00",
+        "git_commit": "3f83495",
+        "inputs_sha256": {
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf"
+        },
+        "script": "scripts/exp_ladder_multiplicity.py",
+        "script_sha256": "1aebca72c76f57f099089e4f573bb0077edd285d034351872b3c04aa4375da25"
+      },
+      "unit": "p ajustado Westfall-Young del contraste H2 forma urbana OSM",
+      "value": 0.734563,
+      "variant": "shared_boot"
+    },
+    "ladder_mult.simultaneous_crit.shared_boot": {
+      "canonical": true,
+      "display": "2.35",
+      "estimator": "percentil 95 de max_j |t*_j|, B=20000, seed 20260731",
+      "family": "ladder_mult.simultaneous_crit",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-31T07:49:14-05:00",
+        "git_commit": "3f83495",
+        "inputs_sha256": {
+          "data/silver/h3_feature_matrix.parquet": "47a115d25765f9ef4c089dc841bc7bfd9c7343f28202bee06e044ca69a360baf"
+        },
+        "script": "scripts/exp_ladder_multiplicity.py",
+        "script_sha256": "1aebca72c76f57f099089e4f573bb0077edd285d034351872b3c04aa4375da25"
+      },
+      "unit": "valor crítico max-t para CIs simultáneos al 95%, familia de 3",
+      "value": 2.347557,
+      "variant": "shared_boot"
+    },
+    "multiplier.estafa.incident": {
+      "canonical": false,
+      "display": "1479",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 1479.374601,
+      "variant": "incident"
+    },
+    "multiplier.estafa.victim": {
+      "canonical": true,
+      "display": "76",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.estafa",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 76.541396,
+      "variant": "victim"
+    },
+    "multiplier.robo_hurto_callejero.incident": {
+      "canonical": false,
+      "display": "15.8",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB incident-level",
+      "family": "multiplier.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:03-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb_incident.csv": "51540c80210c5baf1cf4c8134a93740f0a9ac550d39ccb7ed6a13832931bd5e6"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 15.845365,
+      "variant": "incident"
+    },
+    "multiplier.robo_hurto_callejero.victim": {
+      "canonical": true,
+      "display": "4.6",
+      "estimator": "pooled superficie Σλ*/Σy 2018-2024, r̂ EB victim-level",
+      "family": "multiplier.robo_hurto_callejero",
+      "needs_policy": false,
+      "provenance": {
+        "dirty": true,
+        "emitted_at": "2026-07-18T12:32:01-05:00",
+        "git_commit": "b50a15a",
+        "inputs_sha256": {
+          "data/datasets/DATASET_Denuncias_Policiales_Ene 2018 a Mayo 2026.csv": "cdc6d3d32a37a00ff7f2f1d15d65512fec3a36a0291bb67fede482ca1ffb22bc",
+          "data/datasets/silver/reporting_rate/r_distrital_eb.csv": "94f84189614f011a16c752a2060bd13500ef31e7f449fedbb6e71a2a7e9a5051"
+        },
+        "script": "scripts/build_latent_surface.py",
+        "script_sha256": "d5b8406eaf30f2bb073933c445227e53d4e16beb8019e16cb5fd8482ed1253f7"
+      },
+      "unit": "latente/observado (adimensional)",
+      "value": 4.627059,
+      "variant": "victim"
+    }
+  },
+  "policy": {
+    "geo_degradation.*": {
+      "canonical_variant": "m4c_hgb_10seeds",
+      "decimals": 3,
+      "note": "Curva de evaluabilidad del camera-ready SIMBig (Tabla 4 / Fig. 3): M4c HGB reentrenado sobre target degradado, 10 seeds por nivel, mecanismos uniforme (MCAR, cota superior) y selectivo (retención ∝ propensión distrito×categoría). SUPERSEDE a exp_geocoding_degradation.py (slr-dj7, 83/50/25/10 solo uniforme): un solo run da ambas columnas. 3 dp como la tabla.",
+      "round_mode": "half_up"
+    },
+    "geo_degradation.feat_wins_pct_min": {
+      "canonical_variant": "m4c_hgb_10seeds",
+      "decimals": 0,
+      "note": "Mínimo sobre (mecanismo, nivel) del % de seeds con features > persistencia; entero.",
+      "round_mode": "half_up"
+    },
+    "geo_failure.*": {
+      "canonical_variant": "lima_2019_2023",
+      "decimals": 2,
+      "note": "Mecanismo empírico de fallo de geocodificación en Lima (slr-7lsf, eval_selective_degradation.py). Gradientes de pobreza: Spearman distrital, 2 dp como los cita el camera-ready SIMBig §5.4.",
+      "round_mode": "half_up"
+    },
+    "geo_failure.nocoord_pct.*": {
+      "canonical_variant": "lima_2019_2023",
+      "decimals": 1,
+      "note": "Porcentaje de denuncias sin coordenada por categoría (1 dp, se cita como %).",
+      "round_mode": "half_up"
+    },
+    "ladder_mult.*": {
+      "canonical_variant": "shared_boot",
+      "decimals": 3,
+      "note": "Control de error familiar del ladder tabular (slr-p1u.18, A4). La variante canónica es shared_boot: bootstrap COMPARTIDO sobre distritos — el mismo remuestreo alimenta los cuatro escalones en cada réplica, de modo que los contrastes conservan su correlación y el ajuste max-t no es absurdamente conservador. NO confundir con los CIs marginales de analysis/etapa2_metric_robustness.md, que sortean por separado en cada comparación: ahí el punto coincide (+0.0749) pero el CI es marginal, no simultáneo. family_tolerance está acotada por la resolución del bootstrap (p ≥ 1/(B+1)), así que SUBESTIMA: citarla como cota inferior, nunca como igualdad. decimals=3 para que las anclas coincidan con como el manuscrito escribe los CIs de Δρ (3 dp); las claves con otra escala llevan policy exacta propia.",
+      "round_mode": "half_up"
+    },
+    "ladder_mult.ocho_fuentes_p_wy": {
+      "canonical_variant": "shared_boot",
+      "decimals": 2,
+      "note": "p ajustado Westfall-Young de un contraste NULO del ladder. 2 dp: se cita para mostrar que sigue lejos de 0.05 tras la correccion, no para afirmar ausencia de efecto.",
+      "round_mode": "half_up"
+    },
+    "ladder_mult.osm_p_wy": {
+      "canonical_variant": "shared_boot",
+      "decimals": 2,
+      "note": "p ajustado Westfall-Young de un contraste NULO del ladder. 2 dp: se cita para mostrar que sigue lejos de 0.05 tras la correccion, no para afirmar ausencia de efecto.",
+      "round_mode": "half_up"
+    },
+    "ladder_mult.simultaneous_crit": {
+      "canonical_variant": "shared_boot",
+      "decimals": 2,
+      "note": "Valor crítico max-t: escala de un estadístico t, no de un Δρ. 2 dp, que es como se cita frente al 1.96 marginal.",
+      "round_mode": "half_up"
+    },
+    "multiplier.estafa": {
+      "canonical_variant": "victim",
+      "decimals": 0,
+      "note": "estafa es un multiplicador INESTABLE (r̂<0.05); el paper lo cita floor a ×76 (valor ~76.5). floor = 'al menos 76x'. Cambiar a half_up daría 77.",
+      "round_mode": "floor"
+    },
+    "multiplier.robo_hurto_callejero": {
+      "canonical_variant": "victim",
+      "decimals": 1,
+      "note": "multiplicador de cifra negra robo callejero (Σλ*/Σy). victim = estimador canónico; incident vive como variante no-canónica.",
+      "round_mode": "half_up"
+    }
+  },
+  "schema_version": 1
+}

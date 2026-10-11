@@ -1,0 +1,13 @@
+# Dependencias SOLO para recomputar embeddings SPECTER2 localmente (slr-dhl).
+# Excepción deliberada al "solo numpy/scipy" del track de análisis; aisladas en
+# .venv-embed/ (gitignored). Instalar:
+#   python3 -m venv .venv-embed
+#   .venv-embed/bin/pip install -U pip
+#   .venv-embed/bin/pip install -r scripts/analysis/requirements-embed.txt
+#
+# torch en CPU (sin CUDA): wheel cpu desde el índice oficial de PyTorch.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+transformers
+adapters
+numpy

@@ -1,0 +1,21 @@
+family,test_year,comparison,metric,point,ci_low,ci_high,significant,replica
+ladder,2022,M1_demografia,macro_rho,0.36995882244623146,,,,
+ladder,2022,M1b_manzana,macro_rho,0.44183212572848873,,,,
+ladder,2022,M4c_transporte,macro_rho,0.45273390069601566,,,,
+ladder,2022,M1b_manzana - M1_demografia,delta_macro_rho,0.07187330328225733,0.03968559634243439,0.10035505136266358,si,si
+ladder,2022,M4c_transporte - M1b_manzana,delta_macro_rho,0.01090177496752689,-0.00655136986858909,0.031247826287202306,no,si
+ladder,2023,M1_demografia,macro_rho,0.379788184678855,,,,
+ladder,2023,M1b_manzana,macro_rho,0.4547209004525343,,,,
+ladder,2023,M4c_transporte,macro_rho,0.4635904385320077,,,,
+ladder,2023,M1b_manzana - M1_demografia,delta_macro_rho,0.0748988417067091,0.04782730271115738,0.10116375689505631,si,si
+ladder,2023,M4c_transporte - M1b_manzana,delta_macro_rho,0.008869538079473443,-0.009440802644880224,0.028663010435733934,no,si
+transfer_aqp,2022,transfer,macro_rho,0.4355222342595656,,,,
+transfer_aqp,2022,prior_pob,macro_rho,0.41327735623575645,,,,
+transfer_aqp,2022,persistencia,macro_rho,0.43976756448200316,,,,
+transfer_aqp,2022,transfer - prior_pob,delta_macro_rho,0.02224487802380921,-0.016430285467844485,0.06090813214631822,no,no
+transfer_aqp,2022,transfer - persistencia,delta_macro_rho,0.0018296792186225097,-0.04970758941476963,0.05515627836175267,no,si
+transfer_aqp,2023,transfer,macro_rho,0.4855408525367196,,,,
+transfer_aqp,2023,prior_pob,macro_rho,0.4362197658495773,,,,
+transfer_aqp,2023,persistencia,macro_rho,0.5041782009246074,,,,
+transfer_aqp,2023,transfer - prior_pob,delta_macro_rho,0.04932108668714228,0.006516183446764146,0.09485039431633203,si,si
+transfer_aqp,2023,transfer - persistencia,delta_macro_rho,-0.009986017093313194,-0.07334146816367637,0.0534539163310713,no,si
