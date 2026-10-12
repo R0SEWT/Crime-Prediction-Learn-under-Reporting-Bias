@@ -1,0 +1,35 @@
+# Python dependencies of the scripts deposited in this replication package.
+# Derived from their import statements. Lower bounds are the versions of the
+# authors' environment at deposit time (Python 3.14); older releases may work
+# but were not tested.
+
+# Core: tabular experiments, evaluation and the canonical-numbers registry
+numpy>=2.3
+pandas>=2.3
+pyarrow>=20.0
+scipy>=1.16
+scikit-learn>=1.9
+h3>=4.4
+
+# Feature construction for the transfer cities (transfer_arequipa.py and the
+# fetch_* modules it calls)
+geopandas>=1.1
+shapely>=2.1
+pyogrio>=0.12
+rasterio>=1.5
+requests>=2.33
+urllib3>=2.7
+tqdm>=4.67
+
+# Figures
+matplotlib>=3.10
+
+# Neural experiments (train_stgnn.py, the factorial, the dose-response and the
+# epochs ablation).
+torch>=2.12
+torch-geometric>=2.8
+lightning>=2.6
+
+# Optional: experiment tracking in train_stgnn.py. Every deposited protocol
+# script calls it with --no-mlflow, so this is only needed for ad-hoc runs.
+# mlflow

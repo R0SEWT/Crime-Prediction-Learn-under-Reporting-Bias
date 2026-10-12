@@ -15,11 +15,17 @@ Etapas cacheadas en data/silver/transfer_arequipa/:
     python3 scripts/transfer_arequipa.py --stage features   # WorldPop + manzana + OSM -> features AQP
     python3 scripts/transfer_arequipa.py --stage eval       # entrena Lima, evalúa AQP
     python3 scripts/transfer_arequipa.py                    # all
+
+Entrada: el corpus nacional de denuncias (directorio de parquets denuncias_oid_*.parquet del
+export MININTER/SIDPOL, no redistribuible) se lee de la variable de entorno
+INFELIX_NATIONAL_CORPUS o, si no está definida, de data/raw/external/data_denuncias
+(relativo a la raíz del repo).
 """
 from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from pathlib import Path
 
@@ -30,7 +36,8 @@ from scipy.stats import spearmanr
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-NATIONAL_CORPUS = Path.home() / "Code/ElComercio/MapaDelictivo/data/mininter_api/data_denuncias"
+NATIONAL_CORPUS = Path(os.environ.get("INFELIX_NATIONAL_CORPUS",
+                                     str(ROOT / "data/raw/external/data_denuncias")))
 WORLDPOP_TIF = ROOT / "data/raw/worldpop/per_ppp_2020_UNadj_constrained.tif"
 
 # Ciudades evaluables (>=80% coords reales 2019-2023, ver etapa2_transfer_feasibility.md)

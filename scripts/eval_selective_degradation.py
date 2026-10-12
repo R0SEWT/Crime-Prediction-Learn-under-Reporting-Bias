@@ -37,11 +37,16 @@ Uso:
 
 Salida: analysis/selective_geocoding_degradation.md
         data/silver/predictions/selective_geocoding_degradation.csv (per-seed, gitignored)
+
+Entrada: el volcado crudo de denuncias de Lima (export MININTER/SIDPOL, no redistribuible)
+se lee de la variable de entorno INFELIX_LIMA_PARQUET o, si no está definida, de
+data/raw/external/LIMA.parquet (relativo a la raíz del repo). `--source` lo sobrescribe.
 """
 from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from pathlib import Path
 
@@ -53,7 +58,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from eval_modality_ladder import CATS, FEATURE_SETS, available, load_panel  # noqa: E402
 
-DEFAULT_SOURCE = Path("~/Code/freelance-externos/ElComercio/Wachi/data/raw/LIMA.parquet").expanduser()
+DEFAULT_SOURCE = Path(os.environ.get("INFELIX_LIMA_PARQUET",
+                                    str(ROOT / "data/raw/external/LIMA.parquet")))
 POBREZA_FILE = ROOT / "data/raw/inei/pobreza_distrital_2018.csv"
 OUT_MD = ROOT / "analysis/selective_geocoding_degradation.md"
 OUT_CSV = ROOT / "data/silver/predictions/selective_geocoding_degradation.csv"
